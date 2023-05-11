@@ -1,0 +1,74 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 11 May 2023 19:06:29 GMT
+ */
+
+:root {
+  --toucan-shadow-inner-lg: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.09);
+  --toucan-shadow-inner-md: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  --toucan-shadow-drop-sm: 0px 0px 1px 0px rgba(0, 0, 0, 0.07),0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  --toucan-shadow-drop-lg: 0px 10px 15px 0px rgba(0, 0, 0, 0.08),0px 0px 3px 0px rgba(0, 0, 0, 0.07);
+  --toucan-shadow-drop-md: 0px 0px 4px 0px rgba(0, 0, 0, 0.06),0px 3px 6px 0px rgba(0, 0, 0, 0.1);
+  --toucan-shadow-drop-xl: 0px 20px 25px 0px rgba(0, 0, 0, 0.08),0px 0px 4px 0px rgba(0, 0, 0, 0.08);
+  --toucan-shadow-drop-2xl: 0px 0px 7px 0px rgba(0, 0, 0, 0.08),0px 25px 50px 0px rgba(0, 0, 0, 0.15);
+  --toucan-overlay-dark: 0.03;
+  --toucan-overlay-darker: 0.05;
+  --toucan-overlay-darkest: 0.15;
+  --toucan-color-swatch-10: #ebebeb;
+  --toucan-color-swatch-20: #2469f0;
+  --toucan-color-swatch-30: #767676;
+  --toucan-color-swatch-40: #d31c12;
+  --toucan-color-swatch-50: #a8154e;
+  --toucan-color-swatch-60: #ffffff;
+  --toucan-color-swatch-70: #e5e5e5;
+  --toucan-color-swatch-80: #0b54c1;
+  --toucan-color-swatch-90: #e9181f;
+  --toucan-color-swatch-100: #f47479;
+  --toucan-color-swatch-110: #ffffff;
+  --toucan-color-swatch-120: #e8121a;
+  --toucan-color-swatch-130: #949494;
+  --toucan-color-swatch-140: #b308dd;
+  --toucan-color-swatch-150: #4902fd;
+  --toucan-color-swatch-160: #039eba;
+  --toucan-color-swatch-170: #0f99a1;
+  --toucan-color-swatch-180: #7478a1;
+  --toucan-color-swatch-190: #3b364a;
+  --toucan-color-swatch-200: #1c3cae;
+  --toucan-color-swatch-210: #6b30ab;
+  --toucan-color-swatch-220: #961574;
+  --toucan-color-swatch-230: #ce4789;
+  --toucan-color-swatch-240: #bf4815;
+  --toucan-color-swatch-250: #946613;
+  --toucan-color-swatch-260: #2e5c0e;
+  --toucan-color-swatch-270: #684444;
+  --toucan-color-swatch-280: #d3d3d3;
+  --toucan-color-swatch-290: #ffffff;
+  --toucan-color-swatch-300: #ff7e00;
+  --toucan-color-swatch-310: #5082d2;
+  --toucan-color-swatch-320: #d9d9d9;
+  --toucan-color-swatch-330: #eeeeee;
+  --toucan-color-swatch-340: #649f64;
+  --toucan-color-swatch-350: #edb000;
+  --toucan-color-swatch-360: #242424;
+  --toucan-color-swatch-370: #fafafa;
+  --toucan-color-swatch-380: #adadad;
+  --toucan-color-swatch-390: #c70f57;
+  --toucan-color-swatch-400: #e8e8e8;
+  --toucan-color-swatch-410: #e0e0e0;
+  --toucan-color-swatch-420: #adadad;
+  --toucan-color-swatch-430: #1b8e67;
+  --toucan-color-swatch-440: #168093;
+  --toucan-color-swatch-450: #036678;
+  --toucan-color-swatch-460: #025564;
+  --toucan-color-swatch-470: #1055c6;
+  --toucan-color-swatch-480: #8532c2;
+  --toucan-color-swatch-490: #0108c6;
+  --toucan-color-swatch-500: #ffffff;
+  --toucan-color-swatch-510: #ffffff;
+  --toucan-color-swatch-520: #ededed;
+  --toucan-color-swatch-530: #ffffff;
+  --toucan-color-swatch-540: #ffffff;
+  --toucan-color-swatch-550: #ffffff;
+  --toucan-color-swatch-560: #202020;
+  --toucan-color-swatch-570: #3d3d3d;
+}
