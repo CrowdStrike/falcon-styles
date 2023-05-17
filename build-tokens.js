@@ -1,10 +1,31 @@
 import { registerTransforms } from '@tokens-studio/sd-transforms';
 import StyleDictionary from 'style-dictionary';
+const { formattedVariables } = StyleDictionary.formatHelpers;
 
 registerTransforms(StyleDictionary, {
   expand: {
     typography: false
   },
+});
+
+StyleDictionary.registerFormat({
+  name: 'themeLight',
+  formatter: function({dictionary, file, options}) {
+    const { outputReferences } = options;
+    return ':host, :root, .theme-light {\n' +
+      formattedVariables({format: 'css', dictionary, outputReferences}) +
+      '\n}\n';
+  }
+});
+
+StyleDictionary.registerFormat({
+  name: 'themeDark',
+  formatter: function({dictionary, file, options}) {
+    const { outputReferences } = options;
+    return ':host, .theme-dark {\n' +
+      formattedVariables({format: 'css', dictionary, outputReferences}) +
+      '\n}\n';
+  }
 });
 
 const transforms = [
@@ -30,6 +51,9 @@ const shared = StyleDictionary.extend({
       prefix: 'toucan',
       transforms,
       buildPath: 'styles/',
+      options: {
+        'showFileHeader': false,
+      },
       files: [
         {
           destination: 'shared.css',
@@ -54,7 +78,7 @@ const light = StyleDictionary.extend({
       files: [
         {
           destination: 'light.css',
-          format: 'css/variables',
+          format: 'themeLight',
           filter: (token) => {
             // remove foundation tokens
             return !token.filePath.includes('foundation');
@@ -75,7 +99,7 @@ const dark = StyleDictionary.extend({
       files: [
         {
           destination: 'dark.css',
-          format: 'css/variables',
+          format: 'themeDark',
           filter: (token) => {
             // remove foundation tokens
             return !token.filePath.includes('foundation');

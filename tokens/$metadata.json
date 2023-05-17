@@ -1,0 +1,8 @@
+{
+  "tokenSetOrder": [
+    "foundation",
+    "shared",
+    "light",
+    "dark"
+  ]
+}

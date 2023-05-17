@@ -1,16 +1,4 @@
-/**
- * Do not edit directly
- * Generated on Thu, 11 May 2023 19:10:19 GMT
- */
-
-:root {
-  --toucan-shadow-inner-lg: inset 0px 2px 4px 0px rgba(0, 0, 0, 0.36);
-  --toucan-shadow-inner-md: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
-  --toucan-shadow-drop-sm: 0px 1px 2px 0px rgba(0, 0, 0, 0.46), 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
-  --toucan-shadow-drop-lg: 0px 10px 15px 0px rgba(0, 0, 0, 0.3), 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
-  --toucan-shadow-drop-md: 0px 2px 4px 0px rgba(0, 0, 0, 0.33), 0px 4px 6px 0px rgba(0, 0, 0, 0.1);
-  --toucan-shadow-drop-xl: 0px 20px 25px 0px rgba(0, 0, 0, 0.3), 0px 10px 10px 0px rgba(0, 0, 0, 0.12);
-  --toucan-shadow-drop-2xl: 0px 25px 50px 0px rgba(0, 0, 0, 0.62);
+:host, .theme-dark {
   --toucan-overlay-dark: 0.15;
   --toucan-overlay-darker: 0.25;
   --toucan-overlay-darkest: 0.6;
@@ -71,4 +59,11 @@
   --toucan-color-swatch-550: #38373c;
   --toucan-color-swatch-560: #fafafa;
   --toucan-color-swatch-570: #e2e2e4;
+  --toucan-shadow-inner-md: inset 0 1px 2px 0 rgba(0,0,0,0.25);
+  --toucan-shadow-inner-lg: inset 0 2px 4px 0 rgba(0,0,0,0.36);
+  --toucan-shadow-drop-sm: 0 1px 2px 0 rgba(0,0,0,0.46), 0 1px 3px 0 rgba(0,0,0,0.1);
+  --toucan-shadow-drop-md: 0 2px 4px 0 rgba(0,0,0,0.33), 0 4px 6px 0 rgba(0,0,0,0.10);
+  --toucan-shadow-drop-lg: 0 10px 15px 0 rgba(0,0,0,0.30), 0 4px 6px 0 rgba(0,0,0,0.15);
+  --toucan-shadow-drop-xl: 0 20px 25px 0 rgba(0,0,0,0.30), 0 10px 10px 0 rgba(0,0,0,0.12);
+  --toucan-shadow-drop-xxl: 0 25px 50px 0 rgba(0,0,0,0.62);
 }

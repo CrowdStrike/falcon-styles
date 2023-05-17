@@ -18,73 +18,73 @@
     },
     "font-size": {
       "9": {
-        "value": "9px",
+        "value": "0.563rem",
         "type": "fontSizes"
       },
       "12": {
-        "value": "12px",
+        "value": "0.75rem",
         "type": "fontSizes"
       },
       "14": {
-        "value": "14px",
+        "value": "0.875rem",
         "type": "fontSizes"
       },
       "16": {
-        "value": "16px",
+        "value": "1rem",
         "type": "fontSizes"
       },
       "20": {
-        "value": "20px",
+        "value": "1.25rem",
         "type": "fontSizes"
       },
       "24": {
-        "value": "24px",
+        "value": "1.5rem",
         "type": "fontSizes"
       },
       "32": {
-        "value": "32px",
+        "value": "2rem",
         "type": "fontSizes"
       },
       "40": {
-        "value": "40px",
+        "value": "2.5rem",
         "type": "fontSizes"
       },
       "48": {
-        "value": "48",
+        "value": "3rem",
         "type": "fontSizes"
       }
     },
     "line-height": {
       "16": {
-        "value": "16px",
+        "value": "1rem",
         "type": "lineHeights"
       },
       "20": {
-        "value": "20px",
+        "value": "1.25rem",
         "type": "lineHeights"
       },
       "24": {
-        "value": "24px",
+        "value": "1.5rem",
         "type": "lineHeights"
       },
       "28": {
-        "value": "28px",
+        "value": "1.75rem",
         "type": "lineHeights"
       },
       "32": {
-        "value": "32px",
+        "value": "2rem",
         "type": "lineHeights"
       },
       "40": {
-        "value": "40px",
+        "value": "2.5rem",
         "type": "lineHeights"
       },
       "48": {
-        "value": "48px",
+        "value": "3rem",
         "type": "lineHeights"
       },
       "52": {
-        "value": "52px",
+        "value": "3.25rem",
         "type": "lineHeights"
       }
     },
@@ -553,40 +553,6 @@
       "24": {
         "value": "24",
         "type": "borderRadius"
-      }
-    },
-    "shadow": {
-      "inner": {
-        "100": {
-          "value": "inset 0px 2px 5px 0px rgba(0, 0, 0, 0.09)",
-          "type": "boxShadow"
-        },
-        "200": {
-          "value": "inset 0px 2px 4px 0px rgba(0, 0, 0, 0.08)",
-          "type": "boxShadow"
-        }
-      },
-      "drop": {
-        "100": {
-          "value": "0px 0px 1px 0px rgba(0, 0, 0, 0.07),0px 1px 2px 0px rgba(0, 0, 0, 0.15)",
-          "type": "boxShadow"
-        },
-        "200": {
-          "value": "0px 10px 15px 0px rgba(0, 0, 0, 0.08),0px 0px 3px 0px rgba(0, 0, 0, 0.07)",
-          "type": "boxShadow"
-        },
-        "300": {
-          "value": "0px 0px 4px 0px rgba(0, 0, 0, 0.06),0px 3px 6px 0px rgba(0, 0, 0, 0.1)",
-          "type": "boxShadow"
-        },
-        "400": {
-          "value": "0px 20px 25px 0px rgba(0, 0, 0, 0.08),0px 0px 4px 0px rgba(0, 0, 0, 0.08)",
-          "type": "boxShadow"
-        },
-        "500": {
-          "value": "0px 0px 7px 0px rgba(0, 0, 0, 0.08),0px 25px 50px 0px rgba(0, 0, 0, 0.15)",
-          "type": "boxShadow"
-        }
       }
     },
     "transition": {
