@@ -89,11 +89,11 @@
       }
     },
     "font-family": {
-      "calibre": {
-        "value": "Calibre",
+      "sans-serif": {
+        "value": "Inter",
         "type": "fontFamilies"
       },
-      "monaco": {
+      "monospace": {
         "value": "Monaco",
         "type": "fontFamilies"
       }
