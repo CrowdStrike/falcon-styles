@@ -8,11 +8,11 @@
     },
     "font-weight": {
       "regular": {
-        "value": "Regular",
+        "value": "400",
         "type": "fontWeights"
       },
-      "medium": {
-        "value": "Medium",
+      "semibold": {
+        "value": "600",
         "type": "fontWeights"
       }
     },
@@ -90,11 +90,12 @@
     },
     "font-family": {
       "sans-serif": {
-        "value": "Inter",
-        "type": "fontFamilies"
+        "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+        "type": "fontFamilies",
+        "description": "Native sans-serif system font"
       },
       "monospace": {
-        "value": "Monaco",
+        "value": "Consolas, Menlo, Monaco, Courier, monospace",
         "type": "fontFamilies"
       }
     },

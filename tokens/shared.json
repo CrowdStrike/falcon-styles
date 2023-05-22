@@ -42,7 +42,7 @@
       "4xl": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.52}",
           "fontSize": "{foundation.font-size.48}",
           "letterSpacing": "{foundation.letter-spacing.tighter}",
@@ -54,7 +54,7 @@
       "3xl": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.48}",
           "fontSize": "{foundation.font-size.40}",
           "letterSpacing": "{foundation.letter-spacing.tight}",
@@ -66,7 +66,7 @@
       "2xl": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.40}",
           "fontSize": "{foundation.font-size.32}",
           "textDecoration": "{foundation.text-decoration.none}",
@@ -78,12 +78,36 @@
       "xl": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.32}",
           "fontSize": "{foundation.font-size.24}",
           "textDecoration": "{foundation.text-decoration.none}",
           "letterSpacing": "{foundation.letter-spacing.none}",
           "paragraphSpacing": "{foundation.paragraph-spacing.24}"
+        },
+        "type": "typography"
+      },
+      "l-semibold": {
+        "value": {
+          "fontFamily": "{foundation.font-family.sans-serif}",
+          "fontWeight": "{foundation.font-weight.semibold}",
+          "lineHeight": "{foundation.line-height.32}",
+          "fontSize": "{foundation.font-size.20}",
+          "textDecoration": "{foundation.text-decoration.none}",
+          "letterSpacing": "{foundation.letter-spacing.none}",
+          "paragraphSpacing": "{foundation.paragraph-spacing.0}"
+        },
+        "type": "typography"
+      },
+      "l-tight-semibold": {
+        "value": {
+          "fontFamily": "{foundation.font-family.sans-serif}",
+          "fontWeight": "{foundation.font-weight.semibold}",
+          "lineHeight": "{foundation.line-height.24}",
+          "fontSize": "{foundation.font-size.20}",
+          "letterSpacing": "{foundation.letter-spacing.none}",
+          "paragraphSpacing": "{foundation.paragraph-spacing.32}",
+          "textDecoration": "{foundation.text-decoration.none}"
         },
         "type": "typography"
       },
@@ -99,34 +123,10 @@
         },
         "type": "typography"
       },
-      "l-medium": {
+      "m-semibold": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
-          "lineHeight": "{foundation.line-height.32}",
-          "fontSize": "{foundation.font-size.20}",
-          "textDecoration": "{foundation.text-decoration.none}",
-          "letterSpacing": "{foundation.letter-spacing.none}",
-          "paragraphSpacing": "{foundation.paragraph-spacing.0}"
-        },
-        "type": "typography"
-      },
-      "l-tight-medium": {
-        "value": {
-          "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
-          "lineHeight": "{foundation.line-height.24}",
-          "fontSize": "{foundation.font-size.20}",
-          "letterSpacing": "{foundation.letter-spacing.none}",
-          "paragraphSpacing": "{foundation.paragraph-spacing.32}",
-          "textDecoration": "{foundation.text-decoration.none}"
-        },
-        "type": "typography"
-      },
-      "m-medium": {
-        "value": {
-          "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.24}",
           "fontSize": "{foundation.font-size.16}",
           "textDecoration": "{foundation.text-decoration.none}",
@@ -135,10 +135,10 @@
         },
         "type": "typography"
       },
-      "m-tight-medium": {
+      "m-tight-semibold": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.20}",
           "fontSize": "{foundation.font-size.16}",
           "textDecoration": "{foundation.text-decoration.none}",
@@ -174,7 +174,7 @@
       "m-underline": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.24}",
           "fontSize": "{foundation.font-size.16}",
           "textDecoration": "{foundation.text-decoration.underline}",
@@ -186,7 +186,7 @@
       "m-tight-underline": {
         "value": {
           "fontFamily": "{foundation.font-family.sans-serif}",
-          "fontWeight": "{foundation.font-weight.medium}",
+          "fontWeight": "{foundation.font-weight.semibold}",
           "lineHeight": "{foundation.line-height.20}",
           "fontSize": "{foundation.font-size.16}",
           "textDecoration": "{foundation.text-decoration.underline}",
@@ -478,8 +478,8 @@
       "value": "{foundation.font-weight.regular}",
       "type": "fontWeights"
     },
-    "medium": {
-      "value": "{foundation.font-weight.medium}",
+    "semibold": {
+      "value": "{foundation.font-weight.semibold}",
       "type": "fontWeights"
     }
   }
