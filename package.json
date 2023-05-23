@@ -4,10 +4,16 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build-tokens": "node build-tokens.js"
+    "build-transform-shared": "node node_modules/token-transformer/cli tokens.json tokens/shared.json foundation,shared foundation",
+    "build-transform-light": "node node_modules/token-transformer/cli tokens.json tokens/light.json foundation,light foundation",
+    "build-transform-dark": "node node_modules/token-transformer/cli tokens.json tokens/dark.json foundation,dark foundation",
+    "build-transform": "pnpm run build-transform-shared && pnpm run build-transform-light && pnpm run build-transform-dark",
+    "build-tokens": "node build-tokens.js",
+    "build": "pnpm build-transform && pnpm build-tokens"
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.8.5",
-    "style-dictionary": "^3.8.0"
+    "style-dictionary": "^3.8.0",
+    "token-transformer": "^0.0.32"
   }
 }

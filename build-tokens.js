@@ -9,7 +9,7 @@ registerTransforms(StyleDictionary, {
 });
 
 StyleDictionary.registerFormat({
-  name: 'themeLight',
+  name: 'theme-light',
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, :root, .theme-light {\n' +
@@ -19,7 +19,7 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
-  name: 'themeDark',
+  name: 'theme-dark',
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, .theme-dark {\n' +
@@ -44,72 +44,26 @@ const transforms = [
   'name/cti/kebab',
 ];
 
-const shared = StyleDictionary.extend({
-  source: ['tokens/foundation.json', 'tokens/shared.json'],
-  platforms: {
-    css: {
-      prefix: 'toucan',
-      transforms,
-      buildPath: 'styles/',
-      options: {
-        'showFileHeader': false,
-      },
-      files: [
-        {
-          destination: 'shared.css',
-          format: 'css/variables',
-          filter: (token) => {
-            // remove foundation tokens
-            return !token.filePath.includes('foundation');
+['shared', 'light', 'dark'].map((tokenSet) => {
+  let sd = StyleDictionary.extend({
+    source: [`tokens/${tokenSet}.json`],
+    platforms: {
+      css: {
+        prefix: 'toucan',
+        transforms,
+        buildPath: 'styles/',
+        options: {
+          'showFileHeader': false,
+        },
+        files: [
+          {
+            destination: `${tokenSet}.css`,
+            format: tokenSet === 'shared' ? 'css/variables' : `theme-${tokenSet}`,
           },
-        },
-      ],
+        ],
+      },
     },
-  },
+  });
+
+  sd.buildAllPlatforms();
 });
-
-const light = StyleDictionary.extend({
-  source: ['tokens/foundation.json', 'tokens/light.json'],
-  platforms: {
-    css: {
-      prefix: 'toucan',
-      transforms,
-      buildPath: 'styles/',
-      files: [
-        {
-          destination: 'light.css',
-          format: 'themeLight',
-          filter: (token) => {
-            // remove foundation tokens
-            return !token.filePath.includes('foundation');
-          }
-        },
-      ],
-    },
-  },
-});
-
-const dark = StyleDictionary.extend({
-  source: ['tokens/foundation.json', 'tokens/dark.json'],
-  platforms: {
-    css: {
-      prefix: 'toucan',
-      transforms,
-      buildPath: 'styles/',
-      files: [
-        {
-          destination: 'dark.css',
-          format: 'themeDark',
-          filter: (token) => {
-            // remove foundation tokens
-            return !token.filePath.includes('foundation');
-          }
-        },
-      ],
-    },
-  },
-})
-
-shared.buildAllPlatforms();
-light.buildAllPlatforms();
-dark.buildAllPlatforms();
