@@ -284,6 +284,15 @@
       "value": "#e2e2e4",
       "type": "color",
       "description": "titles-and-attributes"
+    },
+    "580": {
+      "value": "#414154",
+      "type": "color",
+      "description": "selected"
+    },
+    "590": {
+      "value": "#1d1d21",
+      "type": "color"
     }
   },
   "shadow": {

@@ -56,6 +56,8 @@
   --toucan-color-550: #ffffff; /* surface-xl */
   --toucan-color-560: #202020; /* text-and-icons */
   --toucan-color-570: #3d3d3d; /* titles-and-attributes */
+  --toucan-color-580: #e3edef; /* selected */
+  --toucan-color-590: #f5f5f5;
   --toucan-shadow-inner-m: inset 0 2px 4px 0 #00000014;
   --toucan-shadow-inner-l: inset 0 2px 5px 0 #00000017;
   --toucan-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
