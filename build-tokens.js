@@ -29,7 +29,7 @@ StyleDictionary.registerFormat({
 });
 
 const transforms = [
-  // 'ts/descriptionToComment',
+  'ts/descriptionToComment',
   'ts/size/px',
   'ts/opacity',
   'ts/size/lineheight',

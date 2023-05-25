@@ -1,18 +1,4 @@
 {
-  "overlay": {
-    "dark": {
-      "value": "15%",
-      "type": "opacity"
-    },
-    "darker": {
-      "value": "25%",
-      "type": "opacity"
-    },
-    "darkest": {
-      "value": "60%",
-      "type": "opacity"
-    }
-  },
   "color": {
     "swatch": {
       "10": {
@@ -423,6 +409,20 @@
         },
         "type": "boxShadow"
       }
+    }
+  },
+  "overlay": {
+    "dark": {
+      "value": "#00000021",
+      "type": "other"
+    },
+    "darker": {
+      "value": "#00000040",
+      "type": "other"
+    },
+    "darkest": {
+      "value": "#00000099",
+      "type": "other"
     }
   }
 }

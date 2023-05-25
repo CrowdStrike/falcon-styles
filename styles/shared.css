@@ -68,7 +68,7 @@
   --toucan-color-gray-1300: #3D3D3D;
   --toucan-color-gray-1400: #242424;
   --toucan-color-gray-1500: #202020;
-  --toucan-font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --toucan-font-family-sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; /* Font used in UI */
   --toucan-font-family-monospace: Consolas, Menlo, Monaco, Courier, monospace;
   --toucan-font-weight-regular: 400;
   --toucan-font-weight-semibold: 600;
