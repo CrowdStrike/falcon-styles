@@ -1,298 +1,59 @@
 {
-  "color": {
-    "10": {
-      "value": "#131217",
-      "type": "color",
-      "description": "basement"
-    },
-    "20": {
-      "value": "#1c9cfe",
-      "type": "color",
-      "description": "blue"
-    },
-    "30": {
-      "value": "#a6acb0",
-      "type": "color",
-      "description": "body-and-labels"
-    },
-    "40": {
-      "value": "#d31912",
-      "type": "color",
-      "description": "brand"
-    },
-    "50": {
-      "value": "#e96e9d",
-      "type": "color",
-      "description": "code-base-64"
-    },
-    "60": {
-      "value": "#232326",
-      "type": "color",
-      "description": "code-bg"
-    },
-    "70": {
-      "value": "#1c1c21",
-      "type": "color",
-      "description": "code-outline"
-    },
-    "80": {
-      "value": "#9dc1fd",
-      "type": "color",
-      "description": "code-text"
-    },
-    "90": {
-      "value": "#fa4147",
-      "type": "color",
-      "description": "critical"
-    },
-    "100": {
-      "value": "#fa9497",
-      "type": "color",
-      "description": "destructive-hover"
-    },
-    "110": {
-      "value": "#1e1d20",
-      "type": "color",
-      "description": "destructive-idle"
-    },
-    "120": {
-      "value": "#f9585d",
-      "type": "color",
-      "description": "destructive-pressed"
-    },
-    "130": {
-      "value": "#77798f",
-      "type": "color",
-      "description": "disabled"
-    },
-    "140": {
-      "value": "#db62f9",
-      "type": "color",
-      "description": "disc-operations"
-    },
-    "150": {
-      "value": "#8556fe",
-      "type": "color",
-      "description": "dns-requests"
-    },
-    "160": {
-      "value": "#6688ff",
-      "type": "color",
-      "description": "focus"
-    },
-    "170": {
-      "value": "#4cd7f5",
-      "type": "color",
-      "description": "graph-1"
-    },
-    "180": {
-      "value": "#b7b7b7",
-      "type": "color",
-      "description": "graph-10"
-    },
-    "190": {
-      "value": "#efefef",
-      "type": "color",
-      "description": "graph-11"
-    },
-    "200": {
-      "value": "#8280ff",
-      "type": "color",
-      "description": "graph-2"
-    },
-    "210": {
-      "value": "#c179f6",
-      "type": "color",
-      "description": "graph-3"
-    },
-    "220": {
-      "value": "#ffc6c6",
-      "type": "color",
-      "description": "graph-4"
-    },
-    "230": {
-      "value": "#ef91b3",
-      "type": "color",
-      "description": "graph-5"
-    },
-    "240": {
-      "value": "#f69667",
-      "type": "color",
-      "description": "graph-6"
-    },
-    "250": {
-      "value": "#9cefae",
-      "type": "color",
-      "description": "graph-7"
-    },
-    "260": {
-      "value": "#fcdc5c",
-      "type": "color",
-      "description": "graph-8"
-    },
-    "270": {
-      "value": "#a06e6e",
-      "type": "color",
-      "description": "graph-9"
-    },
-    "280": {
-      "value": "#505265",
-      "type": "color",
-      "description": "graph-disabled"
-    },
-    "290": {
-      "value": "#27262c",
-      "type": "color",
-      "description": "ground-floor"
-    },
-    "300": {
-      "value": "#f77d40",
-      "type": "color",
-      "description": "high"
-    },
-    "310": {
-      "value": "#9dc1fd",
-      "type": "color",
-      "description": "informational"
-    },
-    "320": {
-      "value": "#09090c",
-      "type": "color",
-      "description": "lines-dark"
-    },
-    "330": {
-      "value": "#14141a",
-      "type": "color",
-      "description": "lines-light"
-    },
-    "340": {
-      "value": "#cef2ce",
-      "type": "color",
-      "description": "low"
-    },
-    "350": {
-      "value": "#ffcc00",
-      "type": "color",
-      "description": "medium"
-    },
-    "360": {
-      "value": "#212121",
-      "type": "color",
-      "description": "mezzanine"
-    },
-    "370": {
-      "value": "#fafafa",
-      "type": "color",
-      "description": "nav-text-and-icons"
-    },
-    "380": {
-      "value": "#a6acb0",
-      "type": "color",
-      "description": "nav-text-secondary"
-    },
-    "390": {
-      "value": "#fb5093",
-      "type": "color",
-      "description": "network-operations"
-    },
-    "400": {
-      "value": "#63646e",
-      "type": "color",
-      "description": "normal-hover"
-    },
-    "410": {
-      "value": "#4e4f5a",
-      "type": "color",
-      "description": "normal-idle"
-    },
-    "420": {
-      "value": "#3d3d48",
-      "type": "color",
-      "description": "normal-pressed"
-    },
-    "430": {
-      "value": "#06e5b7",
-      "type": "color",
-      "description": "positive"
-    },
-    "440": {
-      "value": "#e1ecfe",
-      "type": "color",
-      "description": "primary-hover"
-    },
-    "450": {
-      "value": "#c8dcfe",
-      "type": "color",
-      "description": "primary-idle"
-    },
-    "460": {
-      "value": "#7d9bff",
-      "type": "color",
-      "description": "primary-pressed"
-    },
-    "470": {
-      "value": "#629cfb",
-      "type": "color",
-      "description": "process-operations"
-    },
-    "480": {
-      "value": "#b15af2",
-      "type": "color",
-      "description": "purple"
-    },
-    "490": {
-      "value": "#5d63fe",
-      "type": "color",
-      "description": "registry-operations"
-    },
-    "500": {
-      "value": "#3d3c40",
-      "type": "color",
-      "description": "surface-2xl"
-    },
-    "510": {
-      "value": "#26252a",
-      "type": "color",
-      "description": "surface-base"
-    },
-    "520": {
-      "value": "#17161a",
-      "type": "color",
-      "description": "surface-inner"
-    },
-    "530": {
-      "value": "#343337",
-      "type": "color",
-      "description": "surface-lg"
-    },
-    "540": {
-      "value": "#2d2c31",
-      "type": "color",
-      "description": "surface-md"
-    },
-    "550": {
-      "value": "#38373c",
-      "type": "color",
-      "description": "surface-xl"
-    },
-    "560": {
-      "value": "#fafafa",
-      "type": "color",
-      "description": "text-and-icons"
-    },
-    "570": {
+  "table": {
+    "foreground-color": {
       "value": "#e2e2e4",
       "type": "color",
-      "description": "titles-and-attributes"
+      "description": "Color of text and icons"
     },
-    "580": {
-      "value": "#414154",
+    "background-color": {
+      "value": "#2d2c31",
       "type": "color",
-      "description": "selected"
+      "description": "Background color of the table"
     },
-    "590": {
-      "value": "#1d1d21",
-      "type": "color"
+    "border-color": {
+      "value": "#09090c",
+      "type": "color",
+      "description": "Color for border around the table itself, headers, and footers"
+    },
+    "header": {
+      "column-seperator-color": {
+        "value": "#e2e2e4",
+        "type": "color",
+        "description": "Color of the header column separator"
+      },
+      "foreground-color": {
+        "value": "#e2e2e4",
+        "type": "color",
+        "description": "Color of text and icons in the header"
+      },
+      "background-color": {
+        "value": "#17161a",
+        "type": "color"
+      }
+    },
+    "row": {
+      "odd-background-color": {
+        "value": "#27262c",
+        "type": "color",
+        "description": "Background colour applied to every other row"
+      },
+      "selected-background-color": {
+        "value": "#414154",
+        "type": "color",
+        "description": "Background color of selected rows"
+      },
+      "border-color": {
+        "value": "transparent",
+        "type": "color",
+        "description": "Color of the border between rows, or transparent to display no border\n"
+      }
+    },
+    "cell": {
+      "foreground-color": {
+        "value": "#e2e2e4",
+        "type": "color",
+        "description": "Color of text in grid cells"
+      }
     }
   },
   "shadow": {

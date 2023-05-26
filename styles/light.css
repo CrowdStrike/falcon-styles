@@ -1,71 +1,23 @@
 :host, :root, .theme-light {
-  --toucan-color-10: #ebebeb; /* basement */
-  --toucan-color-20: #2469f0; /* blue */
-  --toucan-color-30: #767676; /* body-and-labels */
-  --toucan-color-40: #d31c12; /* brand */
-  --toucan-color-50: #a8154e; /* code-base-64 */
-  --toucan-color-60: #ffffff; /* code-bg */
-  --toucan-color-70: #e5e5e5; /* code-outline */
-  --toucan-color-80: #0b54c1; /* code-text */
-  --toucan-color-90: #e9181f; /* critical */
-  --toucan-color-100: #f47479; /* destructive-hover */
-  --toucan-color-110: #ffffff; /* destructive-idle */
-  --toucan-color-120: #e8121a; /* destructive-pressed */
-  --toucan-color-130: #949494; /* disabled */
-  --toucan-color-140: #b308dd; /* disc-operations */
-  --toucan-color-150: #4902fd; /* dns-requests */
-  --toucan-color-160: #039eba; /* focus */
-  --toucan-color-170: #0f99a1; /* graph-1 */
-  --toucan-color-180: #7478a1; /* graph-10 */
-  --toucan-color-190: #3b364a; /* graph-11 */
-  --toucan-color-200: #1c3cae; /* graph-2 */
-  --toucan-color-210: #6b30ab; /* graph-3 */
-  --toucan-color-220: #961574; /* graph-4 */
-  --toucan-color-230: #ce4789; /* graph-5 */
-  --toucan-color-240: #bf4815; /* graph-6 */
-  --toucan-color-250: #946613; /* graph-7 */
-  --toucan-color-260: #2e5c0e; /* graph-8 */
-  --toucan-color-270: #684444; /* graph-9 */
-  --toucan-color-280: #d3d3d3; /* graph-disabled */
-  --toucan-color-290: #ffffff; /* ground-floor */
-  --toucan-color-300: #ff7e00; /* high */
-  --toucan-color-310: #5082d2; /* informational */
-  --toucan-color-320: #d9d9d9; /* lines-dark */
-  --toucan-color-330: #eeeeee; /* lines-light */
-  --toucan-color-340: #649f64; /* low */
-  --toucan-color-350: #edb000; /* medium */
-  --toucan-color-360: #242424; /* mezzanine */
-  --toucan-color-370: #fafafa; /* nav-text-and-icons */
-  --toucan-color-380: #adadad; /* nav-text-secondary */
-  --toucan-color-390: #c70f57; /* network-operations */
-  --toucan-color-400: #e8e8e8; /* normal-hover */
-  --toucan-color-410: #e0e0e0; /* normal-idle */
-  --toucan-color-420: #adadad; /* normal-pressed */
-  --toucan-color-430: #1b8e67; /* positive */
-  --toucan-color-440: #168093; /* primary-hover */
-  --toucan-color-450: #036678; /* primary-idle */
-  --toucan-color-460: #025564; /* primary-pressed */
-  --toucan-color-470: #1055c6; /* process-operations */
-  --toucan-color-480: #8532c2; /* purple */
-  --toucan-color-490: #0108c6; /* registry-operations */
-  --toucan-color-500: #ffffff; /* surface-2xl */
-  --toucan-color-510: #ffffff; /* surface-base */
-  --toucan-color-520: #ededed; /* surface-inner */
-  --toucan-color-530: #ffffff; /* surface-lg */
-  --toucan-color-540: #ffffff; /* surface-md */
-  --toucan-color-550: #ffffff; /* surface-xl */
-  --toucan-color-560: #202020; /* text-and-icons */
-  --toucan-color-570: #3d3d3d; /* titles-and-attributes */
-  --toucan-color-580: #e3edef; /* selected */
-  --toucan-color-590: #f5f5f5;
-  --toucan-shadow-inner-m: inset 0 2px 4px 0 #00000014;
-  --toucan-shadow-inner-l: inset 0 2px 5px 0 #00000017;
-  --toucan-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
-  --toucan-shadow-drop-m: 0 0 4px 0 #0000000f, 0 3px 6px 0 #0000001a;
-  --toucan-shadow-drop-l: 0 10px 15px 0 #00000014, 0 0 3px 0 #00000012;
-  --toucan-shadow-drop-xl: 0 20px 25px 0 #00000014, 0 0 4px 0 #00000014;
-  --toucan-shadow-drop-2xl: 0 0 7px 0 #00000014, 0 25px 50px 0 #00000040;
-  --toucan-overlay-dark: #00000008;
-  --toucan-overlay-darker: #0000000d;
-  --toucan-overlay-darkest: #00000026;
+color-scheme: light;
+  --cs-table-foreground-color: #3d3d3d;
+  --cs-table-background-color: #ffffff;
+  --cs-table-border-color: #d9d9d9;
+  --cs-table-header-column-seperator-color: #3d3d3d;
+  --cs-table-header-foreground-color: #ffffff;
+  --cs-table-header-background-color: #ededed;
+  --cs-table-row-odd-background-color: #f5f5f5;
+  --cs-table-row-selected-background-color: #e3edef;
+  --cs-table-row-border-color: transparent;
+  --cs-table-cell-foreground-color: #3d3d3d;
+  --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;
+  --cs-shadow-inner-l: inset 0 2px 5px 0 #00000017;
+  --cs-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
+  --cs-shadow-drop-m: 0 0 4px 0 #0000000f, 0 3px 6px 0 #0000001a;
+  --cs-shadow-drop-l: 0 10px 15px 0 #00000014, 0 0 3px 0 #00000012;
+  --cs-shadow-drop-xl: 0 20px 25px 0 #00000014, 0 0 4px 0 #00000014;
+  --cs-shadow-drop-2xl: 0 0 7px 0 #00000014, 0 25px 50px 0 #00000040;
+  --cs-overlay-dark: #00000008;
+  --cs-overlay-darker: #0000000d;
+  --cs-overlay-darkest: #00000026;
 }

@@ -13,6 +13,7 @@ StyleDictionary.registerFormat({
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, :root, .theme-light {\n' +
+      'color-scheme: light;\n' +
       formattedVariables({format: 'css', dictionary, outputReferences}) +
       '\n}\n';
   }
@@ -23,13 +24,14 @@ StyleDictionary.registerFormat({
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, .theme-dark {\n' +
+      'color-scheme: dark;\n' +
       formattedVariables({format: 'css', dictionary, outputReferences}) +
       '\n}\n';
   }
 });
 
 const transforms = [
-  'ts/descriptionToComment',
+  // 'ts/descriptionToComment',
   'ts/size/px',
   'ts/opacity',
   'ts/size/lineheight',
@@ -49,7 +51,7 @@ const transforms = [
     source: [`tokens/${tokenSet}.json`],
     platforms: {
       css: {
-        prefix: 'toucan',
+        prefix: 'cs',
         transforms,
         buildPath: 'styles/',
         options: {
