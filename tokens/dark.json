@@ -192,5 +192,39 @@
       "value": "#00000099",
       "type": "other"
     }
+  },
+  "checkbox": {
+    "background-color": {
+      "value": "#4e4f5a",
+      "type": "color"
+    },
+    "checked-color": {
+      "value": "#c8dcfe",
+      "type": "color"
+    },
+    "unchecked-color": {
+      "value": "#a6acb0",
+      "type": "color"
+    }
+  },
+  "input": {
+    "border-color": {
+      "value": "#09090c",
+      "type": "color"
+    },
+    "focus-outline": {
+      "value": "#6688ff",
+      "type": "color"
+    },
+    "background-color": {
+      "value": "#00000040",
+      "type": "color"
+    }
+  },
+  "tab": {
+    "underline-color": {
+      "value": "#6688ff",
+      "type": "color"
+    }
   }
 }

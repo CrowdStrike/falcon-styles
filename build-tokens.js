@@ -13,7 +13,7 @@ StyleDictionary.registerFormat({
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, :root, .theme-light {\n' +
-      'color-scheme: light;\n' +
+      '  color-scheme: light;\n' +
       formattedVariables({format: 'css', dictionary, outputReferences}) +
       '\n}\n';
   }
@@ -24,7 +24,7 @@ StyleDictionary.registerFormat({
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, .theme-dark {\n' +
-      'color-scheme: dark;\n' +
+      '  color-scheme: dark;\n' +
       formattedVariables({format: 'css', dictionary, outputReferences}) +
       '\n}\n';
   }

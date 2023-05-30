@@ -1,5 +1,6 @@
-:host, .theme-dark {
-color-scheme: dark;
+:host,
+.theme-dark {
+  color-scheme: dark;
   --cs-table-foreground-color: #e2e2e4;
   --cs-table-background-color: #2d2c31;
   --cs-table-border-color: #09090c;
@@ -20,4 +21,11 @@ color-scheme: dark;
   --cs-overlay-dark: #00000021;
   --cs-overlay-darker: #00000040;
   --cs-overlay-darkest: #00000099;
+  --cs-checkbox-background-color: #4e4f5a;
+  --cs-checkbox-checked-color: #c8dcfe;
+  --cs-checkbox-unchecked-color: #a6acb0;
+  --cs-input-border-color: #09090c;
+  --cs-input-focus-outline: #6688ff;
+  --cs-input-background-color: #00000040;
+  --cs-tab-underline-color: #6688ff;
 }
