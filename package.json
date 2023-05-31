@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build-transform-shared": "node node_modules/token-transformer/cli tokens.json tokens/shared.json foundation,shared foundation",
-    "build-transform-light": "node node_modules/token-transformer/cli tokens.json tokens/light.json foundation,light foundation",
-    "build-transform-dark": "node node_modules/token-transformer/cli tokens.json tokens/dark.json foundation,dark foundation",
+    "build-transform-light": "node node_modules/token-transformer/cli tokens.json tokens/light.json foundation,light,light-component foundation",
+    "build-transform-dark": "node node_modules/token-transformer/cli tokens.json tokens/dark.json foundation,dark,dark-component foundation",
     "build-transform": "pnpm run build-transform-shared && pnpm run build-transform-light && pnpm run build-transform-dark",
     "build-tokens": "node build-tokens.js",
     "build": "pnpm build-transform && pnpm build-tokens"

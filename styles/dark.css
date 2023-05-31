@@ -1,16 +1,26 @@
-:host,
-.theme-dark {
+:host, .theme-dark {
   color-scheme: dark;
-  --cs-table-foreground-color: #e2e2e4;
-  --cs-table-background-color: #2d2c31;
-  --cs-table-border-color: #09090c;
-  --cs-table-header-column-seperator-color: #e2e2e4;
-  --cs-table-header-foreground-color: #e2e2e4;
-  --cs-table-header-background-color: #17161a;
-  --cs-table-row-odd-background-color: #27262c;
-  --cs-table-row-selected-background-color: #414154;
-  --cs-table-row-border-color: transparent;
-  --cs-table-cell-foreground-color: #e2e2e4;
+  --cs-table-color-foreground: #e2e2e4;
+  --cs-table-color-background: #2d2c31;
+  --cs-table-color-border: #09090c;
+  --cs-table-header-column-seperator-color-background: #e2e2e4;
+  --cs-table-header-color-foreground: #e2e2e4;
+  --cs-table-header-color-background: #17161a;
+  --cs-table-row-color-background-odd: #27262c;
+  --cs-table-row-color-background-selected: #414154;
+  --cs-table-row-color-border: transparent;
+  --cs-table-cell-color-foreground: #e2e2e4;
+  --cs-checkbox-color-background: #4e4f5a;
+  --cs-checkbox-color-checked: #c8dcfe;
+  --cs-checkbox-color-unchecked: #a6acb0;
+  --cs-input-color-border: #09090c;
+  --cs-input-color-outline-focus: #6688ff;
+  --cs-input-color-background: #00000040;
+  --cs-tab-color-underline: #6688ff;
+  --cs-button-color-background-primary: #c8dcfe;
+  --cs-button-color-foreground-primary: #27262c;
+  --cs-button-color-background-secondary: #4e4f5a;
+  --cs-button-colore-foreground-secondary: #fafafa;
   --cs-shadow-inner-m: inset 0 1px 2px 0 #00000040;
   --cs-shadow-inner-l: inset 0 2px 4px 0 #0000005c;
   --cs-shadow-drop-s: 0 1px 2px 0 #00000075, 0 1px 3px 0 #0000001a;
@@ -21,11 +31,8 @@
   --cs-overlay-dark: #00000021;
   --cs-overlay-darker: #00000040;
   --cs-overlay-darkest: #00000099;
-  --cs-checkbox-background-color: #4e4f5a;
-  --cs-checkbox-checked-color: #c8dcfe;
-  --cs-checkbox-unchecked-color: #a6acb0;
-  --cs-input-border-color: #09090c;
-  --cs-input-focus-outline: #6688ff;
-  --cs-input-background-color: #00000040;
-  --cs-tab-underline-color: #6688ff;
+  --cs-color-background-primary: #c8dcfe;
+  --cs-color-background-secondary: #4e4f5a;
+  --cs-color-foreground-primary: #27262c;
+  --cs-color-foreground-secondary: #fafafa;
 }

@@ -1,59 +1,113 @@
 {
   "table": {
-    "foreground-color": {
+    "color-foreground": {
       "value": "#3d3d3d",
       "type": "color",
       "description": "Color of text and icons"
     },
-    "background-color": {
+    "color-background": {
       "value": "#ffffff",
       "type": "color",
       "description": "Background color of the table"
     },
-    "border-color": {
+    "color-border": {
       "value": "#d9d9d9",
       "type": "color",
       "description": "Color for border around the table itself, headers, and footers"
     },
     "header": {
-      "column-seperator-color": {
-        "value": "#3d3d3d",
-        "type": "color",
-        "description": "Color of the header column separator"
+      "column-seperator": {
+        "color-background": {
+          "value": "#3d3d3d",
+          "type": "color",
+          "description": "Color of the header column separator"
+        }
       },
-      "foreground-color": {
+      "color-foreground": {
         "value": "#ffffff",
         "type": "color",
         "description": "Color of text and icons in the header"
       },
-      "background-color": {
+      "color-background": {
         "value": "#ededed",
         "type": "color"
       }
     },
     "row": {
-      "odd-background-color": {
+      "color-background-odd": {
         "value": "#f5f5f5",
         "type": "color",
         "description": "Background colour applied to every other row"
       },
-      "selected-background-color": {
+      "color-background-selected": {
         "value": "#e3edef",
         "type": "color",
         "description": "Background color of selected rows"
       },
-      "border-color": {
+      "color-border": {
         "value": "transparent",
         "type": "color",
         "description": "Color of the border between rows, or transparent to display no border\n"
       }
     },
     "cell": {
-      "foreground-color": {
+      "color-foreground": {
         "value": "#3d3d3d",
         "type": "color",
         "description": "Color of text in grid cells"
       }
+    }
+  },
+  "checkbox": {
+    "color-background": {
+      "value": "#e0e0e0",
+      "type": "color"
+    },
+    "color-checked": {
+      "value": "#036678",
+      "type": "color"
+    },
+    "color-unchecked": {
+      "value": "#767676",
+      "type": "color"
+    }
+  },
+  "input": {
+    "color-border": {
+      "value": "#d9d9d9",
+      "type": "color"
+    },
+    "color-outline-focus": {
+      "value": "#039eba",
+      "type": "color"
+    },
+    "color-background": {
+      "value": "#0000000d",
+      "type": "color"
+    }
+  },
+  "tab": {
+    "color-underline": {
+      "value": "#039eba",
+      "type": "color"
+    }
+  },
+  "button": {
+    "color-background-primary": {
+      "value": "#036678",
+      "type": "color"
+    },
+    "color-foreground-primary": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "color-background-secondary": {
+      "value": "#e0e0e0",
+      "type": "color"
+    },
+    "color-foreground-secondary": {
+      "value": "#202020",
+      "type": "color"
     }
   },
   "shadow": {
@@ -203,38 +257,26 @@
       "type": "other"
     }
   },
-  "checkbox": {
-    "background-color": {
-      "value": "#e0e0e0",
-      "type": "color"
+  "color": {
+    "background": {
+      "primary": {
+        "value": "#036678",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#e0e0e0",
+        "type": "color"
+      }
     },
-    "checked-color": {
-      "value": "#036678",
-      "type": "color"
-    },
-    "unchecked-color": {
-      "value": "#767676",
-      "type": "color"
-    }
-  },
-  "input": {
-    "border-color": {
-      "value": "#d9d9d9",
-      "type": "color"
-    },
-    "focus-outline": {
-      "value": "#039eba",
-      "type": "color"
-    },
-    "background-color": {
-      "value": "#0000000d",
-      "type": "color"
-    }
-  },
-  "tab": {
-    "underline-color": {
-      "value": "#039eba",
-      "type": "color"
+    "foreground": {
+      "primary": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#202020",
+        "type": "color"
+      }
     }
   }
 }

@@ -1,59 +1,113 @@
 {
   "table": {
-    "foreground-color": {
+    "color-foreground": {
       "value": "#e2e2e4",
       "type": "color",
       "description": "Color of text and icons"
     },
-    "background-color": {
+    "color-background": {
       "value": "#2d2c31",
       "type": "color",
       "description": "Background color of the table"
     },
-    "border-color": {
+    "color-border": {
       "value": "#09090c",
       "type": "color",
       "description": "Color for border around the table itself, headers, and footers"
     },
     "header": {
-      "column-seperator-color": {
-        "value": "#e2e2e4",
-        "type": "color",
-        "description": "Color of the header column separator"
+      "column-seperator": {
+        "color-background": {
+          "value": "#e2e2e4",
+          "type": "color",
+          "description": "Color of the header column separator"
+        }
       },
-      "foreground-color": {
+      "color-foreground": {
         "value": "#e2e2e4",
         "type": "color",
         "description": "Color of text and icons in the header"
       },
-      "background-color": {
+      "color-background": {
         "value": "#17161a",
         "type": "color"
       }
     },
     "row": {
-      "odd-background-color": {
+      "color-background-odd": {
         "value": "#27262c",
         "type": "color",
         "description": "Background colour applied to every other row"
       },
-      "selected-background-color": {
+      "color-background-selected": {
         "value": "#414154",
         "type": "color",
         "description": "Background color of selected rows"
       },
-      "border-color": {
+      "color-border": {
         "value": "transparent",
         "type": "color",
         "description": "Color of the border between rows, or transparent to display no border\n"
       }
     },
     "cell": {
-      "foreground-color": {
+      "color-foreground": {
         "value": "#e2e2e4",
         "type": "color",
         "description": "Color of text in grid cells"
       }
+    }
+  },
+  "checkbox": {
+    "color-background": {
+      "value": "#4e4f5a",
+      "type": "color"
+    },
+    "color-checked": {
+      "value": "#c8dcfe",
+      "type": "color"
+    },
+    "color-unchecked": {
+      "value": "#a6acb0",
+      "type": "color"
+    }
+  },
+  "input": {
+    "color-border": {
+      "value": "#09090c",
+      "type": "color"
+    },
+    "color-outline-focus": {
+      "value": "#6688ff",
+      "type": "color"
+    },
+    "color-background": {
+      "value": "#00000040",
+      "type": "color"
+    }
+  },
+  "tab": {
+    "color-underline": {
+      "value": "#6688ff",
+      "type": "color"
+    }
+  },
+  "button": {
+    "color-background-primary": {
+      "value": "#c8dcfe",
+      "type": "color"
+    },
+    "color-foreground-primary": {
+      "value": "#27262c",
+      "type": "color"
+    },
+    "color-background-secondary": {
+      "value": "#4e4f5a",
+      "type": "color"
+    },
+    "colore-foreground-secondary": {
+      "value": "#fafafa",
+      "type": "color"
     }
   },
   "shadow": {
@@ -193,38 +247,26 @@
       "type": "other"
     }
   },
-  "checkbox": {
-    "background-color": {
-      "value": "#4e4f5a",
-      "type": "color"
+  "color": {
+    "background": {
+      "primary": {
+        "value": "#c8dcfe",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#4e4f5a",
+        "type": "color"
+      }
     },
-    "checked-color": {
-      "value": "#c8dcfe",
-      "type": "color"
-    },
-    "unchecked-color": {
-      "value": "#a6acb0",
-      "type": "color"
-    }
-  },
-  "input": {
-    "border-color": {
-      "value": "#09090c",
-      "type": "color"
-    },
-    "focus-outline": {
-      "value": "#6688ff",
-      "type": "color"
-    },
-    "background-color": {
-      "value": "#00000040",
-      "type": "color"
-    }
-  },
-  "tab": {
-    "underline-color": {
-      "value": "#6688ff",
-      "type": "color"
+    "foreground": {
+      "primary": {
+        "value": "#27262c",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#fafafa",
+        "type": "color"
+      }
     }
   }
 }

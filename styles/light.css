@@ -1,17 +1,26 @@
-:host,
-:root,
-.theme-light {
+:host, :root, .theme-light {
   color-scheme: light;
-  --cs-table-foreground-color: #3d3d3d;
-  --cs-table-background-color: #ffffff;
-  --cs-table-border-color: #d9d9d9;
-  --cs-table-header-column-seperator-color: #3d3d3d;
-  --cs-table-header-foreground-color: #ffffff;
-  --cs-table-header-background-color: #ededed;
-  --cs-table-row-odd-background-color: #f5f5f5;
-  --cs-table-row-selected-background-color: #e3edef;
-  --cs-table-row-border-color: transparent;
-  --cs-table-cell-foreground-color: #3d3d3d;
+  --cs-table-color-foreground: #3d3d3d;
+  --cs-table-color-background: #ffffff;
+  --cs-table-color-border: #d9d9d9;
+  --cs-table-header-column-seperator-color-background: #3d3d3d;
+  --cs-table-header-color-foreground: #ffffff;
+  --cs-table-header-color-background: #ededed;
+  --cs-table-row-color-background-odd: #f5f5f5;
+  --cs-table-row-color-background-selected: #e3edef;
+  --cs-table-row-color-border: transparent;
+  --cs-table-cell-color-foreground: #3d3d3d;
+  --cs-checkbox-color-background: #e0e0e0;
+  --cs-checkbox-color-checked: #036678;
+  --cs-checkbox-color-unchecked: #767676;
+  --cs-input-color-border: #d9d9d9;
+  --cs-input-color-outline-focus: #039eba;
+  --cs-input-color-background: #0000000d;
+  --cs-tab-color-underline: #039eba;
+  --cs-button-color-background-primary: #036678;
+  --cs-button-color-foreground-primary: #ffffff;
+  --cs-button-color-background-secondary: #e0e0e0;
+  --cs-button-color-foreground-secondary: #202020;
   --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;
   --cs-shadow-inner-l: inset 0 2px 5px 0 #00000017;
   --cs-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
@@ -22,11 +31,8 @@
   --cs-overlay-dark: #00000008;
   --cs-overlay-darker: #0000000d;
   --cs-overlay-darkest: #00000026;
-  --cs-checkbox-background-color: #e0e0e0;
-  --cs-checkbox-checked-color: #036678;
-  --cs-checkbox-unchecked-color: #767676;
-  --cs-input-border-color: #d9d9d9;
-  --cs-input-focus-outline: #039eba;
-  --cs-input-background-color: #0000000d;
-  --cs-tab-underline-color: #039eba;
+  --cs-color-background-primary: #036678;
+  --cs-color-background-secondary: #e0e0e0;
+  --cs-color-foreground-primary: #ffffff;
+  --cs-color-foreground-secondary: #202020;
 }
