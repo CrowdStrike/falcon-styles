@@ -56,6 +56,10 @@
         "type": "color",
         "description": "Color of text in grid cells"
       }
+    },
+    "border-width": {
+      "value": 1,
+      "type": "borderWidth"
     }
   },
   "checkbox": {
@@ -97,6 +101,14 @@
       "value": "#036678",
       "type": "color"
     },
+    "color-background-primary-hover": {
+      "value": "#168093",
+      "type": "color"
+    },
+    "color-background-primary-active": {
+      "value": "#025564",
+      "type": "color"
+    },
     "color-foreground-primary": {
       "value": "#ffffff",
       "type": "color"
@@ -105,9 +117,73 @@
       "value": "#e0e0e0",
       "type": "color"
     },
+    "color-background-secondary-hover": {
+      "value": "#e8e8e8",
+      "type": "color"
+    },
+    "color-background-secondary-active": {
+      "value": "#adadad",
+      "type": "color"
+    },
     "color-foreground-secondary": {
       "value": "#202020",
       "type": "color"
+    },
+    "color-background-destructive": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "color-foreground-destructive": {
+      "value": "#e8121a",
+      "type": "color"
+    },
+    "color-background-destructive-hover": {
+      "value": "#e8121a",
+      "type": "color"
+    },
+    "color-foreground-destructive-hover": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "color-background-destructive-active": {
+      "value": "#e8121a",
+      "type": "color"
+    },
+    "color-foreground-destructive-active": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "border": {
+      "value": {
+        "color": "transparent",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-focus": {
+      "value": {
+        "color": "#039eba",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-destructive-focus": {
+      "value": {
+        "color": "#e8121a",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "outline-focus": {
+      "value": "#ffffff 2px solid",
+      "type": "other"
+    },
+    "outline-offset-focus": {
+      "value": "-4px",
+      "type": "other"
     }
   },
   "shadow": {

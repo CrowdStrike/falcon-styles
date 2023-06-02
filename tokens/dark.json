@@ -97,6 +97,14 @@
       "value": "#c8dcfe",
       "type": "color"
     },
+    "color-background-primary-hover": {
+      "value": "#e1ecfe",
+      "type": "color"
+    },
+    "color-background-primary-active": {
+      "value": "#7d9bff",
+      "type": "color"
+    },
     "color-foreground-primary": {
       "value": "#27262c",
       "type": "color"
@@ -105,8 +113,72 @@
       "value": "#4e4f5a",
       "type": "color"
     },
-    "colore-foreground-secondary": {
+    "color-background-secondary-hover": {
+      "value": "#63646e",
+      "type": "color"
+    },
+    "color-background-secondary-active": {
+      "value": "#3d3d48",
+      "type": "color"
+    },
+    "color-foreground-secondary": {
       "value": "#fafafa",
+      "type": "color"
+    },
+    "border": {
+      "value": {
+        "color": "transparent",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-focus": {
+      "value": {
+        "color": "#6688ff",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-destructive-focus": {
+      "value": {
+        "color": "#f9585d",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "outline-focus": {
+      "value": "#27262c 2px solid",
+      "type": "other"
+    },
+    "outline-offset-focus": {
+      "value": "-4px",
+      "type": "other"
+    },
+    "color-background-destructive": {
+      "value": "#1e1d20",
+      "type": "color"
+    },
+    "color-foreground-destructive": {
+      "value": "#f9585d",
+      "type": "color"
+    },
+    "color-background-destructive-hover": {
+      "value": "#f9585d",
+      "type": "color"
+    },
+    "color-foreground-destructive-hover": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "color-background-destructive-active": {
+      "value": "#f9585d",
+      "type": "color"
+    },
+    "color-foreground-destructive-active": {
+      "value": "#ffffff",
       "type": "color"
     }
   },
