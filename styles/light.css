@@ -30,11 +30,13 @@
   --cs-button-color-foreground-destructive: #e8121a;
   --cs-button-color-background-destructive-hover: #e8121a;
   --cs-button-color-foreground-destructive-hover: #ffffff;
-  --cs-button-color-background-destructive-active: #e8121a;
+  --cs-button-color-background-destructive-active: #d01017;
   --cs-button-color-foreground-destructive-active: #ffffff;
   --cs-button-border: 2px solid transparent;
   --cs-button-border-focus: 2px solid #039eba;
   --cs-button-border-destructive-focus: 2px solid #e8121a;
+  --cs-button-border-destructive-hover: 2px solid #e8121a;
+  --cs-button-border-destructive-active: 2px solid #d01017;
   --cs-button-outline-focus: #ffffff 2px solid;
   --cs-button-outline-offset-focus: -4px;
   --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;

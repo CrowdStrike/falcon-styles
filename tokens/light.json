@@ -146,7 +146,7 @@
       "type": "color"
     },
     "color-background-destructive-active": {
-      "value": "#e8121a",
+      "value": "#d01017",
       "type": "color"
     },
     "color-foreground-destructive-active": {
@@ -172,6 +172,22 @@
     "border-destructive-focus": {
       "value": {
         "color": "#e8121a",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-destructive-hover": {
+      "value": {
+        "color": "#e8121a",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-destructive-active": {
+      "value": {
+        "color": "#d01017",
         "width": 2,
         "style": "solid"
       },
