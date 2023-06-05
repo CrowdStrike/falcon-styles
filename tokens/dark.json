@@ -198,6 +198,12 @@
       "type": "color"
     }
   },
+  "popover": {
+    "color-background": {
+      "value": "#3d3c40",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

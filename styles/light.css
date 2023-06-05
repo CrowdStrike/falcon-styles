@@ -39,6 +39,7 @@
   --cs-button-border-destructive-active: 2px solid #d01017;
   --cs-button-outline-focus: #ffffff 2px solid;
   --cs-button-outline-offset-focus: -4px;
+  --cs-popover-color-background: #ffffff;
   --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;
   --cs-shadow-inner-l: inset 0 2px 5px 0 #00000017;
   --cs-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
