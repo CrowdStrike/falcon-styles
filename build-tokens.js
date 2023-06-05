@@ -9,7 +9,7 @@ registerTransforms(StyleDictionary, {
 });
 
 StyleDictionary.registerFormat({
-  name: 'theme-light',
+  name: 'light',
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, :root, .theme-light {\n' +
@@ -20,7 +20,7 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
-  name: 'theme-dark',
+  name: 'dark',
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, .theme-dark {\n' +
@@ -29,6 +29,17 @@ StyleDictionary.registerFormat({
       '\n}\n';
   }
 });
+
+StyleDictionary.registerFormat({
+  name: 'shared',
+  formatter: function({dictionary, file, options}) {
+    const { outputReferences } = options;
+    return ':host, :root {\n' +
+      formattedVariables({format: 'css', dictionary, outputReferences}) +
+      '\n}\n';
+  }
+});
+
 
 const transforms = [
   // 'ts/descriptionToComment',
@@ -46,9 +57,9 @@ const transforms = [
   'name/cti/kebab',
 ];
 
-['shared', 'light', 'dark'].map((tokenSet) => {
+['shared', 'light', 'dark'].map((format) => {
   let sd = StyleDictionary.extend({
-    source: [`tokens/${tokenSet}.json`],
+    source: [`tokens/${format}.json`],
     platforms: {
       css: {
         prefix: 'cs',
@@ -59,8 +70,8 @@ const transforms = [
         },
         files: [
           {
-            destination: `${tokenSet}.css`,
-            format: tokenSet === 'shared' ? 'css/variables' : `theme-${tokenSet}`,
+            destination: `${format}.css`,
+            format,
           },
         ],
       },
