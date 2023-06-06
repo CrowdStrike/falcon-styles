@@ -153,6 +153,18 @@
       "value": "#ffffff",
       "type": "color"
     },
+    "color-foreground-text": {
+      "value": "#036678",
+      "type": "color"
+    },
+    "color-foreground-text-hover": {
+      "value": "#168093",
+      "type": "color"
+    },
+    "color-foreground-text-active": {
+      "value": "#025564",
+      "type": "color"
+    },
     "border": {
       "value": {
         "color": "transparent",

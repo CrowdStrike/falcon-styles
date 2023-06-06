@@ -196,6 +196,18 @@
     "color-foreground-destructive-active": {
       "value": "#ffffff",
       "type": "color"
+    },
+    "color-foreground-text": {
+      "value": "#c8dcfe",
+      "type": "color"
+    },
+    "color-foreground-text-hover": {
+      "value": "#e1ecfe",
+      "type": "color"
+    },
+    "color-foreground-text-active": {
+      "value": "#7d9bff",
+      "type": "color"
     }
   },
   "popover": {
