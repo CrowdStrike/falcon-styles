@@ -9,11 +9,14 @@
     "build-transform-dark": "node node_modules/token-transformer/cli tokens.json tokens/dark.json foundation,dark,dark-component foundation",
     "build-transform": "pnpm run build-transform-shared && pnpm run build-transform-light && pnpm run build-transform-dark",
     "build-tokens": "node build-tokens.js",
-    "build": "pnpm build-transform && pnpm build-tokens"
+    "build": "pnpm build-transform && pnpm build-tokens && vite build",
+    "dev": "vite",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "@tokens-studio/sd-transforms": "^0.8.5",
     "style-dictionary": "^3.8.0",
-    "token-transformer": "^0.0.32"
+    "token-transformer": "^0.0.32",
+    "vite": "^4.3.9"
   }
 }
