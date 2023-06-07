@@ -129,27 +129,27 @@
       "value": "#202020",
       "type": "color"
     },
-    "color-background-destructive": {
+    "color-background-danger": {
       "value": "#ffffff",
       "type": "color"
     },
-    "color-foreground-destructive": {
+    "color-foreground-danger": {
       "value": "#e8121a",
       "type": "color"
     },
-    "color-background-destructive-hover": {
+    "color-background-danger-hover": {
       "value": "#e8121a",
       "type": "color"
     },
-    "color-foreground-destructive-hover": {
+    "color-foreground-danger-hover": {
       "value": "#ffffff",
       "type": "color"
     },
-    "color-background-destructive-active": {
+    "color-background-danger-active": {
       "value": "#d01017",
       "type": "color"
     },
-    "color-foreground-destructive-active": {
+    "color-foreground-danger-active": {
       "value": "#ffffff",
       "type": "color"
     },

@@ -141,27 +141,27 @@
       "value": "-4px",
       "type": "other"
     },
-    "color-background-destructive": {
+    "color-background-danger": {
       "value": "#1e1d20",
       "type": "color"
     },
-    "color-foreground-destructive": {
+    "color-foreground-danger": {
       "value": "#e8121a",
       "type": "color"
     },
-    "color-background-destructive-hover": {
-      "value": "#e8121a",
+    "color-background-danger-hover": {
+      "value": "#f9585d",
       "type": "color"
     },
-    "color-foreground-destructive-hover": {
+    "color-foreground-danger-hover": {
       "value": "#ffffff",
       "type": "color"
     },
-    "color-background-destructive-active": {
+    "color-background-danger-active": {
       "value": "#d01017",
       "type": "color"
     },
-    "color-foreground-destructive-active": {
+    "color-foreground-danger-active": {
       "value": "#ffffff",
       "type": "color"
     },
