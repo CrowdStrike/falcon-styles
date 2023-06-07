@@ -41,6 +41,8 @@
   --cs-button-background-image-focus: linear-gradient(to bottom, #6688ff 2px, transparent 0), linear-gradient(to left, #6688ff 2px, transparent 0), linear-gradient(to right, #6688ff 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0);
   --cs-button-background-image-danger-focus: linear-gradient(to bottom, #f9585d 2px, transparent 0), linear-gradient(to left, #f9585d 2px, transparent 0), linear-gradient(to right, #f9585d 2px, transparent 0), linear-gradient(to top, #f9585d 2px, transparent 0);
   --cs-popover-color-background: #3d3c40;
+  --cs-menu-item-color-foreground: #e2e2e4;
+  --cs-menu-label-color-foreground: #a6acb0;
   --cs-shadow-inner-m: inset 0 1px 2px 0 #00000040;
   --cs-shadow-inner-l: inset 0 2px 4px 0 #0000005c;
   --cs-shadow-drop-s: 0 1px 2px 0 #00000075, 0 1px 3px 0 #0000001a;

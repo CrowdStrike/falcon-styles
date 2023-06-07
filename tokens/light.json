@@ -200,6 +200,18 @@
       "type": "color"
     }
   },
+  "menu-item": {
+    "color-foreground": {
+      "value": "#3d3d3d",
+      "type": "color"
+    }
+  },
+  "menu-label": {
+    "color-foreground": {
+      "value": "#767676",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

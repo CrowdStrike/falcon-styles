@@ -196,6 +196,18 @@
       "type": "color"
     }
   },
+  "menu-item": {
+    "color-foreground": {
+      "value": "#e2e2e4",
+      "type": "color"
+    }
+  },
+  "menu-label": {
+    "color-foreground": {
+      "value": "#a6acb0",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {
