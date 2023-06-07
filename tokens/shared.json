@@ -5,35 +5,35 @@
       "type": "spacing"
     },
     "xxs": {
-      "value": 4,
+      "value": "0.25rem",
       "type": "spacing"
     },
     "xs": {
-      "value": 8,
+      "value": "0.5rem",
       "type": "spacing"
     },
     "s": {
-      "value": 12,
+      "value": "0.75rem",
       "type": "spacing"
     },
     "m": {
-      "value": 16,
+      "value": "1rem",
       "type": "spacing"
     },
     "l": {
-      "value": 20,
+      "value": "1.25rem",
       "type": "spacing"
     },
     "xl": {
-      "value": 24,
+      "value": "1.5rem",
       "type": "spacing"
     },
     "2xl": {
-      "value": 32,
+      "value": "2rem",
       "type": "spacing"
     },
     "3xl": {
-      "value": 40,
+      "value": "2.5rem",
       "type": "spacing"
     }
   },
