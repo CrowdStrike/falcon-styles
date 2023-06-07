@@ -180,6 +180,13 @@
     "outline-offset-focus": {
       "value": "-4px",
       "type": "other"
+    "background-image-focus": {
+      "value": "linear-gradient(to bottom, #039eba 2px, transparent 0), linear-gradient(to left, #039eba 2px, transparent 0), linear-gradient(to right, #039eba 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0)",
+      "type": "other"
+    },
+    "background-image-danger-focus": {
+      "value": "linear-gradient(to bottom, #e8121a 2px, transparent 0), linear-gradient(to left, #e8121a 2px, transparent 0), linear-gradient(to right, #e8121a 2px, transparent 0), linear-gradient(to top, #e8121a 2px, transparent 0)",
+      "type": "other"
     }
   },
   "popover": {

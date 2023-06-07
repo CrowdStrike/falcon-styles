@@ -38,6 +38,8 @@
   --cs-button-border: 0 solid transparent;
   --cs-button-outline-focus: #ffffff 2px solid;
   --cs-button-outline-offset-focus: -4px;
+  --cs-button-background-image-focus: linear-gradient(to bottom, #039eba 2px, transparent 0), linear-gradient(to left, #039eba 2px, transparent 0), linear-gradient(to right, #039eba 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0);
+  --cs-button-background-image-danger-focus: linear-gradient(to bottom, #e8121a 2px, transparent 0), linear-gradient(to left, #e8121a 2px, transparent 0), linear-gradient(to right, #e8121a 2px, transparent 0), linear-gradient(to top, #e8121a 2px, transparent 0);
   --cs-popover-color-background: #ffffff;
   --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;
   --cs-shadow-inner-l: inset 0 2px 5px 0 #00000017;

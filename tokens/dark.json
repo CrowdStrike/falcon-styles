@@ -176,6 +176,13 @@
     "color-foreground-link-active": {
       "value": "#7d9bff",
       "type": "color"
+    "background-image-focus": {
+      "value": "linear-gradient(to bottom, #6688ff 2px, transparent 0), linear-gradient(to left, #6688ff 2px, transparent 0), linear-gradient(to right, #6688ff 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0)",
+      "type": "other"
+    },
+    "background-image-danger-focus": {
+      "value": "linear-gradient(to bottom, #f9585d 2px, transparent 0), linear-gradient(to left, #f9585d 2px, transparent 0), linear-gradient(to right, #f9585d 2px, transparent 0), linear-gradient(to top, #f9585d 2px, transparent 0)",
+      "type": "other"
     }
   },
   "popover": {
