@@ -180,6 +180,11 @@
     "outline-offset-focus": {
       "value": "-4px",
       "type": "other"
+    },
+    "color-foreground-disabled": {
+      "value": "#949494",
+      "type": "color"
+    },
     "background-image-focus": {
       "value": "linear-gradient(to bottom, #039eba 2px, transparent 0), linear-gradient(to left, #039eba 2px, transparent 0), linear-gradient(to right, #039eba 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0)",
       "type": "other"

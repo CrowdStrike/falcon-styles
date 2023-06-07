@@ -176,6 +176,11 @@
     "color-foreground-link-active": {
       "value": "#7d9bff",
       "type": "color"
+    },
+    "color-foreground-disabled": {
+      "value": "#77798f",
+      "type": "color"
+    },
     "background-image-focus": {
       "value": "linear-gradient(to bottom, #6688ff 2px, transparent 0), linear-gradient(to left, #6688ff 2px, transparent 0), linear-gradient(to right, #6688ff 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0)",
       "type": "other"
