@@ -128,39 +128,7 @@
     "border": {
       "value": {
         "color": "transparent",
-        "width": 2,
-        "style": "solid"
-      },
-      "type": "border"
-    },
-    "border-focus": {
-      "value": {
-        "color": "#6688ff",
-        "width": 2,
-        "style": "solid"
-      },
-      "type": "border"
-    },
-    "border-destructive-focus": {
-      "value": {
-        "color": "#f9585d",
-        "width": 2,
-        "style": "solid"
-      },
-      "type": "border"
-    },
-    "border-destructive-hover": {
-      "value": {
-        "color": "#e8121a",
-        "width": 2,
-        "style": "solid"
-      },
-      "type": "border"
-    },
-    "border-destructive-active": {
-      "value": {
-        "color": "#d01017",
-        "width": 2,
+        "width": 0,
         "style": "solid"
       },
       "type": "border"
