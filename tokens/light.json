@@ -153,15 +153,15 @@
       "value": "#ffffff",
       "type": "color"
     },
-    "color-foreground-text": {
+    "color-foreground-link": {
       "value": "#036678",
       "type": "color"
     },
-    "color-foreground-text-hover": {
+    "color-foreground-link-hover": {
       "value": "#168093",
       "type": "color"
     },
-    "color-foreground-text-active": {
+    "color-foreground-link-active": {
       "value": "#025564",
       "type": "color"
     },
