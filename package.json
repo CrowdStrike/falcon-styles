@@ -11,11 +11,13 @@
     "build-tokens": "node build-tokens.js",
     "build": "pnpm build-transform && pnpm build-tokens && vite build",
     "dev": "vite",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "watch": "chokidar  \"tokens.json\" -c \"pnpm run build\""
   },
   "devDependencies": {
     "modern-normalize": "^2.0.0",
     "@tokens-studio/sd-transforms": "^0.8.5",
+    "chokidar-cli": "^1.2.0",
     "style-dictionary": "^3.8.0",
     "token-transformer": "^0.0.32",
     "vite": "^4.3.9"
