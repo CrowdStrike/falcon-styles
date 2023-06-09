@@ -11,8 +11,10 @@
   --cs-table-row-color-border: transparent;
   --cs-table-cell-color-foreground: #e2e2e4;
   --cs-checkbox-color-background: #4e4f5a;
+  --cs-checkbox-color-foreground: #1e1d20;
   --cs-checkbox-color-checked: #c8dcfe;
   --cs-checkbox-color-unchecked: #a6acb0;
+  --cs-checkbox-border: 1px solid #a6acb0;
   --cs-input-color-border: #09090c;
   --cs-input-color-outline-focus: #6688ff;
   --cs-input-color-background: #00000040;

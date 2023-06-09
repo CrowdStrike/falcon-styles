@@ -67,6 +67,10 @@
       "value": "#e0e0e0",
       "type": "color"
     },
+    "color-foreground": {
+      "value": "#ffffff",
+      "type": "color"
+    },
     "color-checked": {
       "value": "#036678",
       "type": "color"
@@ -74,6 +78,14 @@
     "color-unchecked": {
       "value": "#767676",
       "type": "color"
+    },
+    "border": {
+      "value": {
+        "color": "#767676",
+        "width": 1,
+        "style": "solid"
+      },
+      "type": "border"
     }
   },
   "input": {

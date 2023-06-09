@@ -63,6 +63,10 @@
       "value": "#4e4f5a",
       "type": "color"
     },
+    "color-foreground": {
+      "value": "#1e1d20",
+      "type": "color"
+    },
     "color-checked": {
       "value": "#c8dcfe",
       "type": "color"
@@ -70,6 +74,14 @@
     "color-unchecked": {
       "value": "#a6acb0",
       "type": "color"
+    },
+    "border": {
+      "value": {
+        "color": "#a6acb0",
+        "style": "solid",
+        "width": 1
+      },
+      "type": "border"
     }
   },
   "input": {
