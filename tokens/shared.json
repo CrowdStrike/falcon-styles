@@ -384,6 +384,10 @@
     "xl": {
       "value": 16,
       "type": "borderRadius"
+    },
+    "circle": {
+      "value": "50%",
+      "type": "borderRadius"
     }
   },
   "transition": {

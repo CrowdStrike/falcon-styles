@@ -40,6 +40,7 @@
   --cs-border-radius-m: 4px;
   --cs-border-radius-l: 8px;
   --cs-border-radius-xl: 16px;
+  --cs-border-radius-circle: 50%;
   --cs-transition-duration-x-slow: 1000ms;
   --cs-transition-duration-slow: 500ms;
   --cs-transition-duration-medium: 250ms;
