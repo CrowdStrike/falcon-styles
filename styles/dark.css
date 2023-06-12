@@ -15,6 +15,11 @@
   --cs-checkbox-color-checked: #c8dcfe;
   --cs-checkbox-color-unchecked: #a6acb0;
   --cs-checkbox-border: 1px solid #a6acb0;
+  --cs-radio-color-background: #4e4f5a;
+  --cs-radio-color-foreground: #1e1d20;
+  --cs-radio-color-checked: #c8dcfe;
+  --cs-radio-color-unchecked: #a6acb0;
+  --cs-radio-border: 1px solid #a6acb0;
   --cs-input-color-border: #09090c;
   --cs-input-color-outline-focus: #6688ff;
   --cs-input-color-background: #00000040;
