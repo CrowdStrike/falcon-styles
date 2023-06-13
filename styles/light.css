@@ -17,8 +17,15 @@
   --cs-checkbox-color-unchecked: #767676;
   --cs-checkbox-border: 1px solid #767676;
   --cs-input-color-border: #d9d9d9;
-  --cs-input-color-outline-focus: #039eba;
+  --cs-input-color-border-focus: #039eba;
+  --cs-input-color-border-invalid: #e9181f;
   --cs-input-color-background: #0000000d;
+  --cs-input-color-foreground: #3d3d3d;
+  --cs-input-color-placeholder: #a1a1aa;
+  --cs-input-color-label: #767676;
+  --cs-input-shadow: inset 0 0 0 1px #d9d9d9, inset 0 2px 4px 0 #00000014;
+  --cs-input-shadow-focus: inset 0 0 0 2px #039eba, inset 0 2px 4px 0 #00000014;
+  --cs-input-shadow-invalid: inset 0 0 0 2px #e9181f, inset 0 2px 4px 0 #00000014;
   --cs-tab-color-underline: #039eba;
   --cs-button-color-background-primary: #036678;
   --cs-button-color-background-primary-hover: #168093;

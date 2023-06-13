@@ -93,13 +93,92 @@
       "value": "#d9d9d9",
       "type": "color"
     },
-    "color-outline-focus": {
+    "color-border-focus": {
       "value": "#039eba",
+      "type": "color"
+    },
+    "color-border-invalid": {
+      "value": "#e9181f",
       "type": "color"
     },
     "color-background": {
       "value": "#0000000d",
       "type": "color"
+    },
+    "color-foreground": {
+      "value": "#3d3d3d",
+      "type": "color"
+    },
+    "color-placeholder": {
+      "value": "#a1a1aa",
+      "type": "color"
+    },
+    "color-label": {
+      "value": "#767676",
+      "type": "color"
+    },
+    "shadow": {
+      "value": [
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": "1px",
+          "color": "#d9d9d9",
+          "type": "innerShadow"
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000014",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "shadow-focus": {
+      "value": [
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": "2px",
+          "color": "#039eba",
+          "type": "innerShadow"
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000014",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "shadow-invalid": {
+      "value": [
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": "2px",
+          "color": "#e9181f",
+          "type": "innerShadow"
+        },
+        {
+          "x": 0,
+          "y": 2,
+          "blur": 4,
+          "spread": 0,
+          "color": "#00000014",
+          "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
     }
   },
   "tab": {
