@@ -63,16 +63,12 @@
       "value": "#4e4f5a",
       "type": "color"
     },
-    "color-foreground": {
+    "color-foreground-checked": {
       "value": "#1e1d20",
       "type": "color"
     },
-    "color-checked": {
+    "color-background-checked": {
       "value": "#c8dcfe",
-      "type": "color"
-    },
-    "color-unchecked": {
-      "value": "#a6acb0",
       "type": "color"
     },
     "border": {
@@ -82,6 +78,14 @@
         "width": 1
       },
       "type": "border"
+    },
+    "outline-focus": {
+      "value": "#6688ff 2px solid",
+      "type": "other"
+    },
+    "outline-offset-focus": {
+      "value": "1px",
+      "type": "other"
     }
   },
   "radio": {

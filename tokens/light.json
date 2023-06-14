@@ -67,16 +67,12 @@
       "value": "#e0e0e0",
       "type": "color"
     },
-    "color-foreground": {
+    "color-foreground-checked": {
       "value": "#ffffff",
       "type": "color"
     },
-    "color-checked": {
+    "color-background-checked": {
       "value": "#036678",
-      "type": "color"
-    },
-    "color-unchecked": {
-      "value": "#767676",
       "type": "color"
     },
     "border": {
@@ -86,6 +82,18 @@
         "style": "solid"
       },
       "type": "border"
+    },
+    "outline-focus": {
+      "value": "#039eba 2px solid",
+      "type": "other"
+    },
+    "outline-offset-focus": {
+      "value": "1px",
+      "type": "other"
+    },
+    "outline-invalid": {
+      "value": "#e9181f 2px solid",
+      "type": "other"
     }
   },
   "input": {
@@ -176,6 +184,27 @@
           "spread": 0,
           "color": "#00000014",
           "type": "innerShadow"
+        }
+      ],
+      "type": "boxShadow"
+    },
+    "shadow-invalid-focus": {
+      "value": [
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": "2px",
+          "color": "#e9181f",
+          "type": "innerShadow"
+        },
+        {
+          "x": 0,
+          "y": 0,
+          "blur": 0,
+          "spread": "2px",
+          "color": "#e9181f63",
+          "type": "boxShadow"
         }
       ],
       "type": "boxShadow"
@@ -277,7 +306,7 @@
       "type": "color"
     },
     "background-image-focus": {
-      "value": "linear-gradient(to bottom, #039eba 2px, transparent 0), linear-gradient(to left, #039eba 2px, transparent 0), linear-gradient(to right, #039eba 2px, transparent 0), linear-gradient(to top, #6688ff 2px, transparent 0)",
+      "value": "linear-gradient(to bottom, #039eba 2px, transparent 0), linear-gradient(to left, #039eba 2px, transparent 0), linear-gradient(to right, #039eba 2px, transparent 0), linear-gradient(to top, #039eba 2px, transparent 0)",
       "type": "other"
     },
     "background-image-danger-focus": {

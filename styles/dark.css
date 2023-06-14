@@ -11,10 +11,11 @@
   --cs-table-row-color-border: transparent;
   --cs-table-cell-color-foreground: #e2e2e4;
   --cs-checkbox-color-background: #4e4f5a;
-  --cs-checkbox-color-foreground: #1e1d20;
-  --cs-checkbox-color-checked: #c8dcfe;
-  --cs-checkbox-color-unchecked: #a6acb0;
+  --cs-checkbox-color-foreground-checked: #1e1d20;
+  --cs-checkbox-color-background-checked: #c8dcfe;
   --cs-checkbox-border: 1px solid #a6acb0;
+  --cs-checkbox-outline-focus: #6688ff 2px solid;
+  --cs-checkbox-outline-offset-focus: 1px;
   --cs-radio-color-background: #4e4f5a;
   --cs-radio-color-foreground: #1e1d20;
   --cs-radio-color-checked: #c8dcfe;
