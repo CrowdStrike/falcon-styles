@@ -135,6 +135,10 @@
       "value": "#e2e2e4",
       "type": "color"
     },
+    "color-foreground-disabled": {
+      "value": "#77798f",
+      "type": "color"
+    },
     "color-placeholder": {
       "value": "#6c6c74",
       "type": "color"
