@@ -333,6 +333,36 @@
       "type": "color"
     }
   },
+  "details": {
+    "border": {
+      "value": {
+        "color": "#09090c",
+        "width": 1,
+        "style": "solid"
+      },
+      "type": "border"
+    }
+  },
+  "details-summary": {
+    "color-background": {
+      "value": "#343337",
+      "type": "color"
+    },
+    "color-foreground": {
+      "value": "#e2e2e4",
+      "type": "color"
+    }
+  },
+  "details-content": {
+    "color-background": {
+      "value": "#343337",
+      "type": "color"
+    },
+    "color-foreground": {
+      "value": "#e2e2e4",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

@@ -57,6 +57,11 @@
   --cs-popover-color-background: #ffffff;
   --cs-menu-item-color-foreground: #3d3d3d;
   --cs-menu-label-color-foreground: #767676;
+  --cs-details-color-summary-background: #ffffff;
+  --cs-details-color-summary-foreground: #3d3d3d;
+  --cs-details-color-content-background: #ffffff;
+  --cs-details-color-content-foreground: #767676;
+  --cs-details-border: 1px solid #d9d9d9;
   --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;
   --cs-shadow-inner-l: inset 0 2px 5px 0 #00000017;
   --cs-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
