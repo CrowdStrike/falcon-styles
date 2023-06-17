@@ -1,4 +1,7 @@
 :host, :root {
+  --cs-input-height: 2rem;
+  --cs-button-height: 2rem;
+  --cs-checkbox-height: 1rem;
   --cs-space-none: 0;
   --cs-space-xxs: 0.25rem;
   --cs-space-xs: 0.5rem;

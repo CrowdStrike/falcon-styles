@@ -1,4 +1,22 @@
 {
+  "input": {
+    "height": {
+      "value": "2rem",
+      "type": "sizing"
+    }
+  },
+  "button": {
+    "height": {
+      "value": "2rem",
+      "type": "sizing"
+    }
+  },
+  "checkbox": {
+    "height": {
+      "value": "1rem",
+      "type": "sizing"
+    }
+  },
   "space": {
     "none": {
       "value": 0,
