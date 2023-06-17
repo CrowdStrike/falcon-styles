@@ -37,9 +37,9 @@
   --cs-type-mono-xxs: 400 0.563rem/150% Consolas, Menlo, Monaco, Courier, monospace;
   --cs-border-radius-none: 0;
   --cs-border-radius-s: 2px;
-  --cs-border-radius-m: 4px;
-  --cs-border-radius-l: 8px;
-  --cs-border-radius-xl: 16px;
+  --cs-border-radius-m: 0.25rem;
+  --cs-border-radius-l: 0.5rem;
+  --cs-border-radius-xl: 1rem;
   --cs-border-radius-circle: 50%;
   --cs-transition-duration-x-slow: 1000ms;
   --cs-transition-duration-slow: 500ms;

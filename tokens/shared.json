@@ -374,15 +374,15 @@
       "type": "borderRadius"
     },
     "m": {
-      "value": 4,
+      "value": "0.25rem",
       "type": "borderRadius"
     },
     "l": {
-      "value": 8,
+      "value": "0.5rem",
       "type": "borderRadius"
     },
     "xl": {
-      "value": 16,
+      "value": "1rem",
       "type": "borderRadius"
     },
     "circle": {
