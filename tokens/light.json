@@ -365,11 +365,11 @@
   "tag": {
     "color-background-neutral": {
       "value": "#e0e0e0",
-      "type": "other"
+      "type": "color"
     },
     "color-foreground-neutral": {
       "value": "#3d3d3d",
-      "type": "other"
+      "type": "color"
     }
   },
   "shadow": {

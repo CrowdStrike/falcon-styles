@@ -362,11 +362,11 @@
   "tag": {
     "color-background-neutral": {
       "value": "#4e4f5a",
-      "type": "other"
+      "type": "color"
     },
     "color-foreground-neutral": {
       "value": "#e2e2e4",
-      "type": "other"
+      "type": "color"
     }
   },
   "shadow": {
