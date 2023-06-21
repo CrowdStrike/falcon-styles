@@ -337,22 +337,6 @@
     }
   },
   "details": {
-    "color-summary-background": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "color-summary-foreground": {
-      "value": "#3d3d3d",
-      "type": "color"
-    },
-    "color-content-background": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "color-content-foreground": {
-      "value": "#767676",
-      "type": "color"
-    },
     "border": {
       "value": {
         "color": "#d9d9d9",
@@ -360,6 +344,32 @@
         "style": "solid"
       },
       "type": "border"
+    },
+    "summary-color-background": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "summary-color-foreground": {
+      "value": "#3d3d3d",
+      "type": "color"
+    },
+    "content-color-background": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "content-color-foreground": {
+      "value": "#767676",
+      "type": "color"
+    }
+  },
+  "tag": {
+    "color-background-neutral": {
+      "value": "#e0e0e0",
+      "type": "other"
+    },
+    "color-foreground-neutral": {
+      "value": "#3d3d3d",
+      "type": "other"
     }
   },
   "shadow": {
