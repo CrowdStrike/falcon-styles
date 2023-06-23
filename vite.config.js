@@ -5,7 +5,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve('main.js'),
-      name: 'toucan-styles',
+      name: 'falcon-styles',
     },
   },
 });
