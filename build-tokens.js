@@ -31,7 +31,7 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
-  name: 'shared',
+  name: 'system',
   formatter: function({dictionary, file, options}) {
     const { outputReferences } = options;
     return ':host, :root {\n' +
@@ -57,7 +57,7 @@ const transforms = [
   'name/cti/kebab',
 ];
 
-['shared', 'light', 'dark'].map((format) => {
+['system', 'light', 'dark'].map((format) => {
   let sd = StyleDictionary.extend({
     source: [`tokens/${format}.json`],
     platforms: {

@@ -16,13 +16,6 @@
       "description": "Color for border around the table itself, headers, and footers"
     },
     "header": {
-      "column-seperator": {
-        "color-background": {
-          "value": "#3d3d3d",
-          "type": "color",
-          "description": "Color of the header column separator"
-        }
-      },
       "color-foreground": {
         "value": "#ffffff",
         "type": "color",
@@ -31,6 +24,13 @@
       "color-background": {
         "value": "#ededed",
         "type": "color"
+      },
+      "column-seperator": {
+        "color-background": {
+          "value": "#3d3d3d",
+          "type": "color",
+          "description": "Color of the header column separator"
+        }
       }
     },
     "row": {
@@ -56,10 +56,6 @@
         "type": "color",
         "description": "Color of text in grid cells"
       }
-    },
-    "border-width": {
-      "value": 1,
-      "type": "borderWidth"
     }
   },
   "checkbox": {
@@ -324,16 +320,18 @@
       "type": "color"
     }
   },
-  "menu-item": {
-    "color-foreground": {
-      "value": "#3d3d3d",
-      "type": "color"
-    }
-  },
-  "menu-label": {
-    "color-foreground": {
-      "value": "#767676",
-      "type": "color"
+  "menu": {
+    "item": {
+      "color-foreground": {
+        "value": "#3d3d3d",
+        "type": "color"
+      }
+    },
+    "label": {
+      "color-foreground": {
+        "value": "#767676",
+        "type": "color"
+      }
     }
   },
   "details": {
@@ -345,21 +343,25 @@
       },
       "type": "border"
     },
-    "summary-color-background": {
-      "value": "#ffffff",
-      "type": "color"
+    "summary": {
+      "color-background": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "color-foreground": {
+        "value": "#3d3d3d",
+        "type": "color"
+      }
     },
-    "summary-color-foreground": {
-      "value": "#3d3d3d",
-      "type": "color"
-    },
-    "content-color-background": {
-      "value": "#ffffff",
-      "type": "color"
-    },
-    "content-color-foreground": {
-      "value": "#767676",
-      "type": "color"
+    "content": {
+      "color-background": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "color-foreground": {
+        "value": "#767676",
+        "type": "color"
+      }
     }
   },
   "tag": {

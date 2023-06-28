@@ -3,9 +3,9 @@
   --cs-table-color-foreground: #e2e2e4;
   --cs-table-color-background: #2d2c31;
   --cs-table-color-border: #09090c;
-  --cs-table-header-column-seperator-color-background: #e2e2e4;
   --cs-table-header-color-foreground: #e2e2e4;
   --cs-table-header-color-background: #17161a;
+  --cs-table-header-column-seperator-color-background: #e2e2e4;
   --cs-table-row-color-background-odd: #27262c;
   --cs-table-row-color-background-selected: #414154;
   --cs-table-row-color-border: transparent;
