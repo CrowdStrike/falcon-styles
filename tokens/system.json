@@ -43,9 +43,9 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "lineHeight": "100%",
-          "fontSize": "3rem",
-          "letterSpacing": "-3%",
+          "lineHeight": "3.25rem",
+          "fontSize": "2.75rem",
+          "letterSpacing": "-5%",
           "textDecoration": "none",
           "paragraphSpacing": 0
         },
@@ -55,11 +55,11 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "fontSize": "2.5rem",
+          "fontSize": "2.25rem",
           "letterSpacing": "-2%",
           "textDecoration": "none",
           "paragraphSpacing": 48,
-          "lineHeight": "125%"
+          "lineHeight": "3rem"
         },
         "type": "typography"
       },
@@ -67,8 +67,8 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "lineHeight": "125%",
-          "fontSize": "2rem",
+          "lineHeight": "2.5rem",
+          "fontSize": "1.75rem",
           "textDecoration": "none",
           "letterSpacing": 0,
           "paragraphSpacing": 32
@@ -79,35 +79,11 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "lineHeight": "150%",
-          "fontSize": "1.5rem",
+          "lineHeight": "2rem",
+          "fontSize": "1.25rem",
           "textDecoration": "none",
           "letterSpacing": 0,
           "paragraphSpacing": 24
-        },
-        "type": "typography"
-      },
-      "l-semibold": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 600,
-          "lineHeight": "150%",
-          "fontSize": "1.25rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "l-tight-semibold": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 600,
-          "lineHeight": "125%",
-          "fontSize": "1.25rem",
-          "letterSpacing": 0,
-          "paragraphSpacing": 32,
-          "textDecoration": "none"
         },
         "type": "typography"
       },
@@ -115,11 +91,47 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "1.25rem",
-          "letterSpacing": 0,
+          "lineHeight": "2rem",
+          "fontSize": "1.125rem",
+          "letterSpacing": "-1%",
           "paragraphSpacing": 20,
           "textDecoration": "none"
+        },
+        "type": "typography"
+      },
+      "l-semibold": {
+        "value": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+          "fontWeight": 600,
+          "fontSize": "1.125rem",
+          "textDecoration": "none",
+          "letterSpacing": "-1%",
+          "paragraphSpacing": 0,
+          "lineHeight": "2rem"
+        },
+        "type": "typography"
+      },
+      "l-tight-semibold": {
+        "value": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+          "fontWeight": 600,
+          "lineHeight": "1.5rem",
+          "fontSize": "1.125rem",
+          "letterSpacing": "-1%",
+          "paragraphSpacing": 32,
+          "textDecoration": "none"
+        },
+        "type": "typography"
+      },
+      "m": {
+        "value": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+          "fontWeight": 400,
+          "lineHeight": "1.5rem",
+          "fontSize": "0.875rem",
+          "textDecoration": "none",
+          "letterSpacing": 0,
+          "paragraphSpacing": 8
         },
         "type": "typography"
       },
@@ -127,8 +139,8 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "lineHeight": "150%",
-          "fontSize": "1rem",
+          "lineHeight": "1.5rem",
+          "fontSize": "0.875rem",
           "textDecoration": "none",
           "letterSpacing": 0,
           "paragraphSpacing": 8
@@ -139,23 +151,11 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "lineHeight": "125%",
-          "fontSize": "1rem",
+          "lineHeight": "1.25rem",
+          "fontSize": "0.875rem",
           "textDecoration": "none",
           "letterSpacing": 0,
           "paragraphSpacing": 16
-        },
-        "type": "typography"
-      },
-      "m": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "1rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 8
         },
         "type": "typography"
       },
@@ -163,8 +163,8 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 400,
-          "lineHeight": "125%",
-          "fontSize": "1rem",
+          "lineHeight": "1.25rem",
+          "fontSize": "0.875rem",
           "textDecoration": "none",
           "letterSpacing": 0,
           "paragraphSpacing": 16
@@ -174,9 +174,9 @@
       "m-underline": {
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 600,
-          "lineHeight": "150%",
-          "fontSize": "1rem",
+          "fontWeight": 400,
+          "lineHeight": "1.5rem",
+          "fontSize": "0.875rem",
           "textDecoration": "underline",
           "letterSpacing": 0,
           "paragraphSpacing": 8
@@ -187,11 +187,35 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 400,
-          "lineHeight": "125%",
-          "fontSize": "1rem",
+          "lineHeight": "1.25rem",
+          "fontSize": "0.875rem",
           "textDecoration": "underline",
           "letterSpacing": 0,
           "paragraphSpacing": 16
+        },
+        "type": "typography"
+      },
+      "s": {
+        "value": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+          "fontWeight": 400,
+          "lineHeight": "1.375rem",
+          "fontSize": "0.8125rem",
+          "textDecoration": "none",
+          "letterSpacing": 0,
+          "paragraphSpacing": 8
+        },
+        "type": "typography"
+      },
+      "s-tight": {
+        "value": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+          "fontWeight": 400,
+          "lineHeight": "1.25rem",
+          "fontSize": "0.8125rem",
+          "textDecoration": "none",
+          "letterSpacing": 0,
+          "paragraphSpacing": 8
         },
         "type": "typography"
       },
@@ -199,71 +223,11 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 600,
-          "lineHeight": "150%",
-          "fontSize": "0.875rem",
+          "lineHeight": "1.375rem",
+          "fontSize": "0.8125rem",
           "textDecoration": "none",
           "letterSpacing": 0,
           "paragraphSpacing": 8
-        },
-        "type": "typography"
-      },
-      "s-tight-semibold": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 600,
-          "lineHeight": "125%",
-          "fontSize": "0.875rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 16
-        },
-        "type": "typography"
-      },
-      "s": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "0.875rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 8
-        },
-        "type": "typography"
-      },
-      "s-tight": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 400,
-          "lineHeight": "125%",
-          "fontSize": "0.875rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "s-underline": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 600,
-          "lineHeight": "150%",
-          "fontSize": "0.875rem",
-          "textDecoration": "underline",
-          "letterSpacing": 0,
-          "paragraphSpacing": 8
-        },
-        "type": "typography"
-      },
-      "s-tight-underline": {
-        "value": {
-          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-          "fontWeight": 400,
-          "lineHeight": "125%",
-          "fontSize": "0.875rem",
-          "textDecoration": "underline",
-          "letterSpacing": 0,
-          "paragraphSpacing": 16
         },
         "type": "typography"
       },
@@ -271,10 +235,23 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 400,
-          "fontSize": "0.75rem",
-          "lineHeight": "150%",
+          "fontSize": "0.6875rem",
+          "lineHeight": "1.25rem",
           "textDecoration": "none",
-          "paragraphSpacing": 12
+          "paragraphSpacing": 8,
+          "letterSpacing": 0
+        },
+        "type": "typography"
+      },
+      "xs-semibold": {
+        "value": {
+          "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+          "fontWeight": 600,
+          "fontSize": "0.6875rem",
+          "lineHeight": "1.25rem",
+          "textDecoration": "none",
+          "paragraphSpacing": 8,
+          "letterSpacing": 0
         },
         "type": "typography"
       },
@@ -282,11 +259,11 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 400,
-          "lineHeight": "125%",
-          "fontSize": "0.75rem",
+          "lineHeight": "1rem",
+          "fontSize": "0.6875rem",
           "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 0
+          "paragraphSpacing": 8,
+          "letterSpacing": 0
         },
         "type": "typography"
       },
@@ -294,23 +271,41 @@
         "value": {
           "fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
           "fontWeight": 400,
-          "fontSize": "0.75rem",
-          "lineHeight": "125%",
+          "fontSize": "0.6875rem",
+          "lineHeight": "1rem",
           "textDecoration": "underline",
-          "letterSpacing": 0
+          "letterSpacing": 0,
+          "paragraphSpacing": 8
         },
         "type": "typography"
       }
     },
     "mono": {
+      "m": {
+        "value": {
+          "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
+          "fontWeight": 400,
+          "lineHeight": "1.5rem",
+          "fontSize": "0.875rem"
+        },
+        "type": "typography"
+      },
+      "m-tight": {
+        "value": {
+          "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
+          "fontWeight": 400,
+          "lineHeight": "1.25rem",
+          "fontSize": "0.875rem"
+        },
+        "type": "typography"
+      },
       "s": {
         "value": {
           "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
           "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "0.875rem",
-          "textDecoration": "none",
-          "paragraphSpacing": 0
+          "lineHeight": "1.375rem",
+          "fontSize": "0.8125rem",
+          "textDecoration": "none"
         },
         "type": "typography"
       },
@@ -318,50 +313,106 @@
         "value": {
           "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
           "fontWeight": 400,
-          "lineHeight": "125%",
-          "fontSize": "0.875rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "s-underline": {
-        "value": {
-          "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
-          "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "0.875rem",
-          "textDecoration": "underline",
-          "letterSpacing": 0,
-          "paragraphSpacing": 0
-        },
-        "type": "typography"
-      },
-      "xs": {
-        "value": {
-          "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
-          "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "0.75rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 8
-        },
-        "type": "typography"
-      },
-      "xxs": {
-        "value": {
-          "fontFamily": "Consolas, Menlo, Monaco, Courier, monospace",
-          "fontWeight": 400,
-          "lineHeight": "150%",
-          "fontSize": "0.563rem",
-          "textDecoration": "none",
-          "letterSpacing": 0,
-          "paragraphSpacing": 0
+          "lineHeight": "1.25rem",
+          "fontSize": "0.8125rem"
         },
         "type": "typography"
       }
+    }
+  },
+  "font-size": {
+    "xxs": {
+      "value": "0.5625rem",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "0.6875rem",
+      "type": "fontSizes"
+    },
+    "s": {
+      "value": "0.8125rem",
+      "type": "fontSizes"
+    },
+    "m": {
+      "value": "0.875rem",
+      "type": "fontSizes"
+    },
+    "l": {
+      "value": "1.125rem",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "1.25rem",
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": "1.75rem",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "2.25rem",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "2.75rem",
+      "type": "fontSizes"
+    }
+  },
+  "font-family": {
+    "sans-serif": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "type": "fontFamilies",
+      "description": "Font used in UI"
+    },
+    "monospace": {
+      "value": "Consolas, Menlo, Monaco, Courier, monospace",
+      "type": "fontFamilies"
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "value": 400,
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeights"
+    }
+  },
+  "text-decoration": {
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
+    }
+  },
+  "letter-spacing": {
+    "none": {
+      "value": 0,
+      "type": "letterSpacing"
+    },
+    "tighten": {
+      "value": "-1%",
+      "type": "letterSpacing"
+    },
+    "tight": {
+      "value": "-2%",
+      "type": "letterSpacing"
+    },
+    "tighter": {
+      "value": "-3%",
+      "type": "letterSpacing"
+    },
+    "tightest": {
+      "value": "-5%",
+      "type": "letterSpacing"
     }
   },
   "border-radius": {
@@ -370,7 +421,7 @@
       "type": "borderRadius"
     },
     "s": {
-      "value": 2,
+      "value": "0.1875rem",
       "type": "borderRadius"
     },
     "m": {
@@ -383,10 +434,6 @@
     },
     "xl": {
       "value": "1rem",
-      "type": "borderRadius"
-    },
-    "circle": {
-      "value": "50%",
       "type": "borderRadius"
     }
   },
@@ -412,189 +459,6 @@
         "value": "50ms",
         "type": "other"
       }
-    }
-  },
-  "font-size": {
-    "xxs": {
-      "value": "0.563rem",
-      "type": "fontSizes"
-    },
-    "xs": {
-      "value": "0.75rem",
-      "type": "fontSizes"
-    },
-    "s": {
-      "value": "0.875rem",
-      "type": "fontSizes"
-    },
-    "m": {
-      "value": "1rem",
-      "type": "fontSizes"
-    },
-    "l": {
-      "value": "1.25rem",
-      "type": "fontSizes"
-    },
-    "xl": {
-      "value": "1.5rem",
-      "type": "fontSizes"
-    },
-    "2xl": {
-      "value": "2rem",
-      "type": "fontSizes"
-    },
-    "3xl": {
-      "value": "2.5rem",
-      "type": "fontSizes"
-    },
-    "4xl": {
-      "value": "3rem",
-      "type": "fontSizes"
-    }
-  },
-  "gray": {
-    "100": {
-      "value": "#fafafa",
-      "type": "color"
-    },
-    "200": {
-      "value": "#EEEEEE",
-      "type": "color"
-    },
-    "300": {
-      "value": "#EDEDED",
-      "type": "color"
-    },
-    "400": {
-      "value": "#EBEBEB",
-      "type": "color"
-    },
-    "500": {
-      "value": "#E8E8E8",
-      "type": "color"
-    },
-    "600": {
-      "value": "#E5E5E5",
-      "type": "color"
-    },
-    "700": {
-      "value": "#E0E0E0",
-      "type": "color"
-    },
-    "800": {
-      "value": "#D9D9D9",
-      "type": "color"
-    },
-    "900": {
-      "value": "#D3D3D3",
-      "type": "color"
-    },
-    "1000": {
-      "value": "#ADADAD",
-      "type": "color"
-    },
-    "1100": {
-      "value": "#949494",
-      "type": "color"
-    },
-    "1200": {
-      "value": "#767676",
-      "type": "color"
-    },
-    "1300": {
-      "value": "#3D3D3D",
-      "type": "color"
-    },
-    "1400": {
-      "value": "#242424",
-      "type": "color"
-    },
-    "1500": {
-      "value": "#202020",
-      "type": "color"
-    }
-  },
-  "font-family": {
-    "sans-serif": {
-      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "type": "fontFamilies",
-      "description": "Font used in UI"
-    },
-    "monospace": {
-      "value": "Consolas, Menlo, Monaco, Courier, monospace",
-      "type": "fontFamilies"
-    }
-  },
-  "font-weight": {
-    "regular": {
-      "value": 400,
-      "type": "fontWeights"
-    },
-    "semibold": {
-      "value": 600,
-      "type": "fontWeights"
-    }
-  },
-  "line-height": {
-    "tighter": {
-      "value": "100%",
-      "type": "lineHeights"
-    },
-    "tight": {
-      "value": "125%",
-      "type": "lineHeights"
-    },
-    "normal": {
-      "value": "150%",
-      "type": "lineHeights"
-    },
-    "loose": {
-      "value": "175%",
-      "type": "lineHeights"
-    },
-    "looser": {
-      "value": "200%",
-      "type": "lineHeights"
-    }
-  },
-  "text-decoration": {
-    "underline": {
-      "value": "underline",
-      "type": "textDecoration"
-    },
-    "none": {
-      "value": "none",
-      "type": "textDecoration"
-    },
-    "line-through": {
-      "value": "line-through",
-      "type": "textDecoration"
-    }
-  },
-  "letter-spacing": {
-    "tight": {
-      "value": "-2%",
-      "type": "letterSpacing"
-    },
-    "tighter": {
-      "value": "-3%",
-      "type": "letterSpacing"
-    },
-    "none": {
-      "value": 0,
-      "type": "letterSpacing"
-    }
-  },
-  "input": {
-    "height": {
-      "value": "2rem",
-      "type": "dimension"
-    }
-  },
-  "checkbox": {
-    "height": {
-      "value": "1rem",
-      "type": "dimension"
     }
   }
 }
