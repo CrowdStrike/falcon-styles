@@ -29,7 +29,12 @@
   --cs-input-shadow-focus: inset 0 0 0 2px #039eba, inset 0 2px 4px 0 #00000014;
   --cs-input-shadow-invalid: inset 0 0 0 2px #e9181f, inset 0 2px 4px 0 #00000014;
   --cs-input-shadow-invalid-focus: inset 0 0 0 2px #e9181f, 0 0 0 2px #e9181f63;
-  --cs-tab-color-underline: #039eba;
+  --cs-tab-color-background: transparent;
+  --cs-tab-color-background-hover: transparent;
+  --cs-tab-color-background-active: #039eba;
+  --cs-tab-color-foreground: #767676;
+  --cs-tab-color-foreground-hover: #3d3d3d;
+  --cs-tab-color-foreground-active: #3d3d3d;
   --cs-button-color-background-primary: #036678;
   --cs-button-color-background-primary-hover: #168093;
   --cs-button-color-background-primary-active: #025564;
@@ -73,8 +78,4 @@
   --cs-overlay-dark: #00000008;
   --cs-overlay-darker: #0000000d;
   --cs-overlay-darkest: #00000026;
-  --cs-color-background-primary: #036678;
-  --cs-color-background-secondary: #e0e0e0;
-  --cs-color-foreground-primary: #ffffff;
-  --cs-color-foreground-secondary: #202020;
 }

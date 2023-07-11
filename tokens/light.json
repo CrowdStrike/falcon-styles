@@ -211,8 +211,28 @@
     }
   },
   "tab": {
-    "color-underline": {
+    "color-background": {
+      "value": "transparent",
+      "type": "color"
+    },
+    "color-background-hover": {
+      "value": "transparent",
+      "type": "color"
+    },
+    "color-background-active": {
       "value": "#039eba",
+      "type": "color"
+    },
+    "color-foreground": {
+      "value": "#767676",
+      "type": "color"
+    },
+    "color-foreground-hover": {
+      "value": "#3d3d3d",
+      "type": "color"
+    },
+    "color-foreground-active": {
+      "value": "#3d3d3d",
       "type": "color"
     }
   },
@@ -519,28 +539,6 @@
     "darkest": {
       "value": "#00000026",
       "type": "other"
-    }
-  },
-  "color": {
-    "background": {
-      "primary": {
-        "value": "#036678",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "#e0e0e0",
-        "type": "color"
-      }
-    },
-    "foreground": {
-      "primary": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "secondary": {
-        "value": "#202020",
-        "type": "color"
-      }
     }
   }
 }
