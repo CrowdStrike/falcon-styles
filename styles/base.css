@@ -5,5 +5,7 @@
 }
 
 body {
+  background-color: var(--cs-color-background-default);
+  color: var(--cs-color-foreground-default);
   font-size: var(--cs-font-size-m);
 }

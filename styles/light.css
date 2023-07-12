@@ -78,4 +78,6 @@
   --cs-overlay-dark: #00000008;
   --cs-overlay-darker: #0000000d;
   --cs-overlay-darkest: #00000026;
+  --cs-color-background-default: #ffffff;
+  --cs-color-foreground-default: #3d3d3d;
 }

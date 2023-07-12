@@ -505,5 +505,15 @@
       "value": "#00000099",
       "type": "other"
     }
+  },
+  "color": {
+    "background-default": {
+      "value": "#27262c",
+      "type": "color"
+    },
+    "foreground-default": {
+      "value": "#e2e2e4",
+      "type": "color"
+    }
   }
 }
