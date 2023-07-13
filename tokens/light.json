@@ -308,7 +308,15 @@
     "border": {
       "value": {
         "color": "transparent",
-        "width": 0,
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
+    },
+    "border-focus": {
+      "value": {
+        "color": "#039eba",
+        "width": 2,
         "style": "solid"
       },
       "type": "border"
@@ -325,13 +333,13 @@
       "value": "#949494",
       "type": "color"
     },
-    "background-image-focus": {
-      "value": "linear-gradient(to bottom, #039eba 2px, transparent 0), linear-gradient(to left, #039eba 2px, transparent 0), linear-gradient(to right, #039eba 2px, transparent 0), linear-gradient(to top, #039eba 2px, transparent 0)",
-      "type": "other"
-    },
-    "background-image-danger-focus": {
-      "value": "linear-gradient(to bottom, #e8121a 2px, transparent 0), linear-gradient(to left, #e8121a 2px, transparent 0), linear-gradient(to right, #e8121a 2px, transparent 0), linear-gradient(to top, #e8121a 2px, transparent 0)",
-      "type": "other"
+    "border-danger-focus": {
+      "value": {
+        "color": "#e8121a",
+        "width": 2,
+        "style": "solid"
+      },
+      "type": "border"
     }
   },
   "popover": {
@@ -403,7 +411,21 @@
       "value": "#168093",
       "type": "color"
     },
-    "foreground-hover-active": {
+    "foreground-active": {
+      "value": "#025564",
+      "type": "color"
+    }
+  },
+  "breadcrumb": {
+    "foreground": {
+      "value": "#036678",
+      "type": "color"
+    },
+    "foreground-hover": {
+      "value": "#168093",
+      "type": "color"
+    },
+    "foreground-active": {
       "value": "#025564",
       "type": "color"
     }
