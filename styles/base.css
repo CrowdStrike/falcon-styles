@@ -9,3 +9,22 @@ body {
   color: var(--cs-color-foreground-default);
   font-size: var(--cs-font-size-m);
 }
+
+a {
+  color: var(--cs-link-foreground);
+  text-decoration: var(--cs-text-decoration-underline);
+
+}
+
+a:hover {
+  color: var(--cs-link-foreground-hover);
+}
+
+a:active {
+  color: var(--cs-link-foreground-active);
+}
+
+a:focus-visible {
+  outline: var(--cs-button-border-focus);
+  outline-offset: 2px;
+}

@@ -66,6 +66,9 @@
   --cs-details-content-color-foreground: #e2e2e4;
   --cs-tag-color-background-neutral: #4e4f5a;
   --cs-tag-color-foreground-neutral: #e2e2e4;
+  --cs-link-foreground: #c8dcfe;
+  --cs-link-foreground-hover: #e1ecfe;
+  --cs-link-foreground-hover-active: #7d9bff;
   --cs-shadow-inner-m: inset 0 1px 2px 0 #00000040;
   --cs-shadow-inner-l: inset 0 2px 4px 0 #0000005c;
   --cs-shadow-drop-s: 0 1px 2px 0 #00000075, 0 1px 3px 0 #0000001a;

@@ -369,6 +369,20 @@
       "type": "color"
     }
   },
+  "link": {
+    "foreground": {
+      "value": "#c8dcfe",
+      "type": "color"
+    },
+    "foreground-hover": {
+      "value": "#e1ecfe",
+      "type": "color"
+    },
+    "foreground-hover-active": {
+      "value": "#7d9bff",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

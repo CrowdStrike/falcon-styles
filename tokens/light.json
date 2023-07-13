@@ -394,6 +394,20 @@
       "type": "color"
     }
   },
+  "link": {
+    "foreground": {
+      "value": "#036678",
+      "type": "color"
+    },
+    "foreground-hover": {
+      "value": "#168093",
+      "type": "color"
+    },
+    "foreground-hover-active": {
+      "value": "#025564",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {
