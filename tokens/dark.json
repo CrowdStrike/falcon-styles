@@ -405,6 +405,16 @@
       "type": "color"
     }
   },
+  "tooltip": {
+    "color-foreground": {
+      "value": "#fafafa",
+      "type": "color"
+    },
+    "color-background": {
+      "value": "#3d3c40",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

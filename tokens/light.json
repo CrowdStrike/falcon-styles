@@ -430,6 +430,16 @@
       "type": "color"
     }
   },
+  "tooltip": {
+    "color-background": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "color-foreground": {
+      "value": "#202020",
+      "type": "color"
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

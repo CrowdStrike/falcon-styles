@@ -74,6 +74,8 @@
   --cs-breadcrumb-foreground: #036678;
   --cs-breadcrumb-foreground-hover: #168093;
   --cs-breadcrumb-foreground-active: #025564;
+  --cs-tooltip-color-background: #ffffff;
+  --cs-tooltip-color-foreground: #202020;
   --cs-shadow-inner-m: inset 0 2px 4px 0 #00000014;
   --cs-shadow-inner-l: inset 0 2px 5px 0 #00000017;
   --cs-shadow-drop-s: 0 0 1px 0 #00000012, 0 1px 2px 0 #00000026;
