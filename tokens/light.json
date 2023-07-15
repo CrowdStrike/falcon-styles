@@ -440,6 +440,24 @@
       "type": "color"
     }
   },
+  "switch": {
+    "control": {
+      "color-background": {
+        "value": "#767676",
+        "type": "color"
+      },
+      "color-background-checked": {
+        "value": "#025564",
+        "type": "color"
+      }
+    },
+    "thumb": {
+      "color-background": {
+        "value": "#ffffff",
+        "type": "color"
+      }
+    }
+  },
   "shadow": {
     "inner": {
       "m": {

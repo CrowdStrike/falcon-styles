@@ -415,6 +415,24 @@
       "type": "color"
     }
   },
+  "switch": {
+    "control": {
+      "color-background": {
+        "value": "#a6acb0",
+        "type": "color"
+      },
+      "color-background-checked": {
+        "value": "#7d9bff",
+        "type": "color"
+      }
+    },
+    "thumb": {
+      "color-background": {
+        "value": "#27262c",
+        "type": "color"
+      }
+    }
+  },
   "shadow": {
     "inner": {
       "m": {
