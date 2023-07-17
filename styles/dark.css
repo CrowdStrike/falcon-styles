@@ -89,4 +89,9 @@
   --cs-overlay-darkest: #00000099;
   --cs-color-background-default: #27262c;
   --cs-color-foreground-default: #e2e2e4;
+  --cs-color-alert-danger: #fa4147;
+  --cs-color-alert-medium: #edb000;
+  --cs-color-alert-success: #06e5b7;
+  --cs-color-alert-info: #9dc1fd;
+  --cs-color-alert-neutral: #949494;
 }

@@ -613,6 +613,28 @@
     "foreground-default": {
       "value": "#3d3d3d",
       "type": "color"
+    },
+    "alert": {
+      "danger": {
+        "value": "#fa4147",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#edb000",
+        "type": "color"
+      },
+      "success": {
+        "value": "#1b8e67",
+        "type": "color"
+      },
+      "info": {
+        "value": "#5082d2",
+        "type": "color"
+      },
+      "neutral": {
+        "value": "#949494",
+        "type": "color"
+      }
     }
   }
 }
