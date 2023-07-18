@@ -13,7 +13,6 @@ body {
 a {
   color: var(--cs-link-foreground);
   text-decoration: var(--cs-text-decoration-underline);
-
 }
 
 a:hover {

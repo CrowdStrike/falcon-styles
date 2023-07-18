@@ -635,6 +635,20 @@
         "value": "#949494",
         "type": "color"
       }
+    },
+    "border": {
+      "light": {
+        "value": "#e5e7eb",
+        "type": "color"
+      },
+      "medium": {
+        "value": "#9ca3af",
+        "type": "color"
+      },
+      "bold": {
+        "value": "#4b5563",
+        "type": "color"
+      }
     }
   }
 }

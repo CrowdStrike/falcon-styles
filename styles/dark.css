@@ -94,4 +94,7 @@
   --cs-color-alert-success: #06e5b7;
   --cs-color-alert-info: #9dc1fd;
   --cs-color-alert-neutral: #949494;
+  --cs-color-border-light: #4b5563;
+  --cs-color-border-medium: #9ca3af;
+  --cs-color-border-bold: #e5e7eb;
 }
