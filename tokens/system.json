@@ -1,39 +1,131 @@
 {
   "space": {
-    "none": {
+    "x0": {
       "value": 0,
       "type": "spacing"
     },
-    "xxs": {
+    "x025": {
+      "value": "0.0625rem",
+      "type": "spacing"
+    },
+    "x05": {
+      "value": "0.125rem",
+      "type": "spacing"
+    },
+    "x1": {
       "value": "0.25rem",
       "type": "spacing"
     },
-    "xs": {
+    "x2": {
       "value": "0.5rem",
       "type": "spacing"
     },
-    "s": {
+    "x3": {
       "value": "0.75rem",
       "type": "spacing"
     },
-    "m": {
+    "x4": {
       "value": "1rem",
       "type": "spacing"
     },
-    "l": {
+    "x5": {
       "value": "1.25rem",
       "type": "spacing"
     },
-    "xl": {
+    "x6": {
       "value": "1.5rem",
       "type": "spacing"
     },
-    "2xl": {
+    "x7": {
+      "value": "1.75rem",
+      "type": "spacing"
+    },
+    "x8": {
       "value": "2rem",
       "type": "spacing"
     },
-    "3xl": {
+    "x9": {
+      "value": "2.25rem",
+      "type": "spacing"
+    },
+    "x10": {
       "value": "2.5rem",
+      "type": "spacing"
+    },
+    "x11": {
+      "value": "2.75rem",
+      "type": "spacing"
+    },
+    "x12": {
+      "value": "3rem",
+      "type": "spacing"
+    },
+    "x14": {
+      "value": "3.5rem",
+      "type": "spacing"
+    },
+    "x16": {
+      "value": "4rem",
+      "type": "spacing"
+    },
+    "x20": {
+      "value": "5rem",
+      "type": "spacing"
+    },
+    "x24": {
+      "value": "6rem",
+      "type": "spacing"
+    },
+    "x28": {
+      "value": "7rem",
+      "type": "spacing"
+    },
+    "x32": {
+      "value": "8rem",
+      "type": "spacing"
+    },
+    "x36": {
+      "value": "9rem",
+      "type": "spacing"
+    },
+    "x40": {
+      "value": "10rem",
+      "type": "spacing"
+    },
+    "x44": {
+      "value": "11rem",
+      "type": "spacing"
+    },
+    "x48": {
+      "value": "12rem",
+      "type": "spacing"
+    },
+    "x52": {
+      "value": "13rem",
+      "type": "spacing"
+    },
+    "x56": {
+      "value": "14rem",
+      "type": "spacing"
+    },
+    "x60": {
+      "value": "15rem",
+      "type": "spacing"
+    },
+    "x64": {
+      "value": "16rem",
+      "type": "spacing"
+    },
+    "x72": {
+      "value": "18rem",
+      "type": "spacing"
+    },
+    "x80": {
+      "value": "20rem",
+      "type": "spacing"
+    },
+    "x96": {
+      "value": "24rem",
       "type": "spacing"
     }
   },
