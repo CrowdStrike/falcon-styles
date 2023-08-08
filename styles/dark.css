@@ -41,9 +41,10 @@
   --cs-button-color-background-secondary-hover: #63646e;
   --cs-button-color-background-secondary-active: #3d3d48;
   --cs-button-color-foreground-secondary: #fafafa;
-  --cs-button-border: 2px solid transparent;
-  --cs-button-outline-focus: #27262c 2px solid;
-  --cs-button-outline-offset-focus: -4px;
+  --cs-button-border: 1px solid transparent;
+  --cs-button-outline-focus: #6688ff 2px solid;
+  --cs-button-outline-offset-focus: 2px;
+  --cs-button-outline-offset-focus-inner: -2px;
   --cs-button-color-background-danger: #1e1d20;
   --cs-button-color-foreground-danger: #e8121a;
   --cs-button-color-background-danger-hover: #f9585d;
@@ -54,8 +55,6 @@
   --cs-button-color-foreground-link-hover: #e1ecfe;
   --cs-button-color-foreground-link-active: #7d9bff;
   --cs-button-color-foreground-disabled: #77798f;
-  --cs-button-border-focus: 2px solid #6688ff;
-  --cs-button-border-danger-focus: 2px solid #f9585d;
   --cs-popover-color-background: #3d3c40;
   --cs-menu-item-color-foreground: #e2e2e4;
   --cs-menu-label-color-foreground: #a6acb0;
@@ -97,4 +96,6 @@
   --cs-color-border-light: #4b5563;
   --cs-color-border-medium: #9ca3af;
   --cs-color-border-bold: #e5e7eb;
+  --cs-menu-item-outline-focus: #039eba 2px solid;
+  --cs-menu-item-outline-offset-focus: 2px;
 }

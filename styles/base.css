@@ -24,6 +24,6 @@ a:active {
 }
 
 a:focus-visible {
-  outline: var(--cs-button-border-focus);
-  outline-offset: 2px;
+  outline: var(--cs-button-outline-focus);
+  outline-offset: var(--cs-button-outline-offset-focus)
 }

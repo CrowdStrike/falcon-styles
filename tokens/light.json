@@ -308,38 +308,26 @@
     "border": {
       "value": {
         "color": "transparent",
-        "width": 2,
-        "style": "solid"
-      },
-      "type": "border"
-    },
-    "border-focus": {
-      "value": {
-        "color": "#039eba",
-        "width": 2,
+        "width": 1,
         "style": "solid"
       },
       "type": "border"
     },
     "outline-focus": {
-      "value": "#ffffff 2px solid",
+      "value": "#039eba 2px solid",
       "type": "other"
     },
     "outline-offset-focus": {
-      "value": "-4px",
+      "value": "2px",
+      "type": "other"
+    },
+    "outline-offset-focus-inner": {
+      "value": "-2px",
       "type": "other"
     },
     "color-foreground-disabled": {
       "value": "#949494",
       "type": "color"
-    },
-    "border-danger-focus": {
-      "value": {
-        "color": "#e8121a",
-        "width": 2,
-        "style": "solid"
-      },
-      "type": "border"
     }
   },
   "popover": {
