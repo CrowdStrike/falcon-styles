@@ -24,6 +24,6 @@ a:active {
 }
 
 a:focus-visible {
-  outline: var(--cs-button-outline-focus);
-  outline-offset: var(--cs-button-outline-offset-focus)
+  outline: var(--cs-focus-ring-color) var(--cs-focus-ring-width) var(--cs-focus-ring-style);
+  outline-offset: var(--cs-focus-ring-offset);
 }

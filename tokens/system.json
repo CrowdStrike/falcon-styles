@@ -513,7 +513,7 @@
       "type": "borderRadius"
     },
     "s": {
-      "value": "0.1875rem",
+      "value": "0.125rem",
       "type": "borderRadius"
     },
     "m": {
@@ -551,6 +551,24 @@
         "value": "50ms",
         "type": "other"
       }
+    }
+  },
+  "focus": {
+    "ring-offset": {
+      "value": "2px",
+      "type": "other"
+    },
+    "ring-width": {
+      "value": "2px",
+      "type": "other"
+    },
+    "ring-inset": {
+      "value": "-2px",
+      "type": "other"
+    },
+    "ring-style": {
+      "value": "solid",
+      "type": "other"
     }
   }
 }

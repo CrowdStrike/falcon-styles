@@ -78,14 +78,6 @@
         "width": 1
       },
       "type": "border"
-    },
-    "outline-focus": {
-      "value": "#6688ff 2px solid",
-      "type": "other"
-    },
-    "outline-offset-focus": {
-      "value": "1px",
-      "type": "other"
     }
   },
   "input": {
@@ -251,18 +243,6 @@
         "style": "solid"
       },
       "type": "border"
-    },
-    "outline-focus": {
-      "value": "#6688ff 2px solid",
-      "type": "other"
-    },
-    "outline-offset-focus": {
-      "value": "2px",
-      "type": "other"
-    },
-    "outline-offset-focus-inner": {
-      "value": "-2px",
-      "type": "other"
     },
     "color-background-danger": {
       "value": "#1e1d20",
@@ -604,13 +584,9 @@
       }
     }
   },
-  "menu-item": {
-    "outline-focus": {
-      "value": "#039eba 2px solid",
-      "type": "other"
-    },
-    "outline-offset-focus": {
-      "value": "2px",
+  "focus": {
+    "ring-color": {
+      "value": "#6688ff",
       "type": "other"
     }
   }

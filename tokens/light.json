@@ -78,18 +78,6 @@
         "style": "solid"
       },
       "type": "border"
-    },
-    "outline-focus": {
-      "value": "#039eba 2px solid",
-      "type": "other"
-    },
-    "outline-offset-focus": {
-      "value": "1px",
-      "type": "other"
-    },
-    "outline-invalid": {
-      "value": "#e9181f 2px solid",
-      "type": "other"
     }
   },
   "input": {
@@ -312,18 +300,6 @@
         "style": "solid"
       },
       "type": "border"
-    },
-    "outline-focus": {
-      "value": "#039eba 2px solid",
-      "type": "other"
-    },
-    "outline-offset-focus": {
-      "value": "2px",
-      "type": "other"
-    },
-    "outline-offset-focus-inner": {
-      "value": "-2px",
-      "type": "other"
     },
     "color-foreground-disabled": {
       "value": "#949494",
@@ -637,6 +613,12 @@
         "value": "#4b5563",
         "type": "color"
       }
+    }
+  },
+  "focus": {
+    "ring-color": {
+      "value": "#039eba",
+      "type": "other"
     }
   }
 }

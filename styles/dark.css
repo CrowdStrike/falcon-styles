@@ -14,8 +14,6 @@
   --cs-checkbox-color-foreground-checked: #1e1d20;
   --cs-checkbox-color-background-checked: #c8dcfe;
   --cs-checkbox-border: 1px solid #a6acb0;
-  --cs-checkbox-outline-focus: #6688ff 2px solid;
-  --cs-checkbox-outline-offset-focus: 1px;
   --cs-input-color-border: #09090c;
   --cs-input-color-border-focus: #6688ff;
   --cs-input-color-border-invalid: #fa4147;
@@ -42,9 +40,6 @@
   --cs-button-color-background-secondary-active: #3d3d48;
   --cs-button-color-foreground-secondary: #fafafa;
   --cs-button-border: 1px solid transparent;
-  --cs-button-outline-focus: #6688ff 2px solid;
-  --cs-button-outline-offset-focus: 2px;
-  --cs-button-outline-offset-focus-inner: -2px;
   --cs-button-color-background-danger: #1e1d20;
   --cs-button-color-foreground-danger: #e8121a;
   --cs-button-color-background-danger-hover: #f9585d;
@@ -96,6 +91,5 @@
   --cs-color-border-light: #4b5563;
   --cs-color-border-medium: #9ca3af;
   --cs-color-border-bold: #e5e7eb;
-  --cs-menu-item-outline-focus: #039eba 2px solid;
-  --cs-menu-item-outline-offset-focus: 2px;
+  --cs-focus-ring-color: #6688ff;
 }
