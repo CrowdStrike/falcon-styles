@@ -8,7 +8,7 @@
     "build-transform-light": "node node_modules/token-transformer/cli tokens.json tokens/light.json reference,light,light-component reference",
     "build-transform-dark": "node node_modules/token-transformer/cli tokens.json tokens/dark.json reference,dark,dark-component reference",
     "build-transform": "pnpm run build-transform-system && pnpm run build-transform-light && pnpm run build-transform-dark",
-    "build-tokens": "node build-tokens.js",
+    "build-tokens": "node build-styles.js",
     "build": "pnpm build-transform && pnpm build-tokens && vite build",
     "dev": "vite",
     "preview": "vite preview",
