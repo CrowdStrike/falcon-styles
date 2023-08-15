@@ -1,4 +1,125 @@
 {
+  "border-radius": {
+    "none": {
+      "value": 0,
+      "type": "borderRadius"
+    },
+    "s": {
+      "value": "0.125rem",
+      "type": "borderRadius"
+    },
+    "m": {
+      "value": "0.25rem",
+      "type": "borderRadius"
+    },
+    "l": {
+      "value": "0.5rem",
+      "type": "borderRadius"
+    },
+    "xl": {
+      "value": "1rem",
+      "type": "borderRadius"
+    }
+  },
+  "focus-ring": {
+    "offset": {
+      "value": "2px",
+      "type": "other"
+    },
+    "width": {
+      "value": "2px",
+      "type": "other"
+    },
+    "inset": {
+      "value": "-2px",
+      "type": "other"
+    },
+    "style": {
+      "value": "solid",
+      "type": "other"
+    }
+  },
+  "font-family": {
+    "sans-serif": {
+      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "type": "fontFamilies",
+      "description": "Font used in UI"
+    },
+    "monospace": {
+      "value": "Consolas, Menlo, Monaco, Courier, monospace",
+      "type": "fontFamilies"
+    }
+  },
+  "font-size": {
+    "xxs": {
+      "value": "0.5625rem",
+      "type": "fontSizes"
+    },
+    "xs": {
+      "value": "0.6875rem",
+      "type": "fontSizes"
+    },
+    "s": {
+      "value": "0.8125rem",
+      "type": "fontSizes"
+    },
+    "m": {
+      "value": "0.875rem",
+      "type": "fontSizes"
+    },
+    "l": {
+      "value": "1.125rem",
+      "type": "fontSizes"
+    },
+    "xl": {
+      "value": "1.25rem",
+      "type": "fontSizes"
+    },
+    "2xl": {
+      "value": "1.75rem",
+      "type": "fontSizes"
+    },
+    "3xl": {
+      "value": "2.25rem",
+      "type": "fontSizes"
+    },
+    "4xl": {
+      "value": "2.75rem",
+      "type": "fontSizes"
+    }
+  },
+  "font-weight": {
+    "regular": {
+      "value": 400,
+      "type": "fontWeights"
+    },
+    "semibold": {
+      "value": 600,
+      "type": "fontWeights"
+    }
+  },
+  "letter-spacing": {
+    "none": {
+      "value": 0,
+      "type": "letterSpacing"
+    },
+    "tighten": {
+      "value": "-1%",
+      "type": "letterSpacing"
+    },
+    "tight": {
+      "value": "-2%",
+      "type": "letterSpacing"
+    },
+    "tighter": {
+      "value": "-3%",
+      "type": "letterSpacing"
+    },
+    "tightest": {
+      "value": "-5%",
+      "type": "letterSpacing"
+    }
+  },
   "space": {
     "x0": {
       "value": 0,
@@ -127,6 +248,44 @@
     "x96": {
       "value": "24rem",
       "type": "spacing"
+    }
+  },
+  "text-decoration": {
+    "underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "none": {
+      "value": "none",
+      "type": "textDecoration"
+    },
+    "line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
+    }
+  },
+  "transition": {
+    "duration": {
+      "x-slow": {
+        "value": "1000ms",
+        "type": "other"
+      },
+      "slow": {
+        "value": "500ms",
+        "type": "other"
+      },
+      "medium": {
+        "value": "250ms",
+        "type": "other"
+      },
+      "fast": {
+        "value": "150ms",
+        "type": "other"
+      },
+      "x-fast": {
+        "value": "50ms",
+        "type": "other"
+      }
     }
   },
   "type": {
@@ -410,165 +569,6 @@
         },
         "type": "typography"
       }
-    }
-  },
-  "font-size": {
-    "xxs": {
-      "value": "0.5625rem",
-      "type": "fontSizes"
-    },
-    "xs": {
-      "value": "0.6875rem",
-      "type": "fontSizes"
-    },
-    "s": {
-      "value": "0.8125rem",
-      "type": "fontSizes"
-    },
-    "m": {
-      "value": "0.875rem",
-      "type": "fontSizes"
-    },
-    "l": {
-      "value": "1.125rem",
-      "type": "fontSizes"
-    },
-    "xl": {
-      "value": "1.25rem",
-      "type": "fontSizes"
-    },
-    "2xl": {
-      "value": "1.75rem",
-      "type": "fontSizes"
-    },
-    "3xl": {
-      "value": "2.25rem",
-      "type": "fontSizes"
-    },
-    "4xl": {
-      "value": "2.75rem",
-      "type": "fontSizes"
-    }
-  },
-  "font-family": {
-    "sans-serif": {
-      "value": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-      "type": "fontFamilies",
-      "description": "Font used in UI"
-    },
-    "monospace": {
-      "value": "Consolas, Menlo, Monaco, Courier, monospace",
-      "type": "fontFamilies"
-    }
-  },
-  "font-weight": {
-    "regular": {
-      "value": 400,
-      "type": "fontWeights"
-    },
-    "semibold": {
-      "value": 600,
-      "type": "fontWeights"
-    }
-  },
-  "text-decoration": {
-    "underline": {
-      "value": "underline",
-      "type": "textDecoration"
-    },
-    "none": {
-      "value": "none",
-      "type": "textDecoration"
-    },
-    "line-through": {
-      "value": "line-through",
-      "type": "textDecoration"
-    }
-  },
-  "letter-spacing": {
-    "none": {
-      "value": 0,
-      "type": "letterSpacing"
-    },
-    "tighten": {
-      "value": "-1%",
-      "type": "letterSpacing"
-    },
-    "tight": {
-      "value": "-2%",
-      "type": "letterSpacing"
-    },
-    "tighter": {
-      "value": "-3%",
-      "type": "letterSpacing"
-    },
-    "tightest": {
-      "value": "-5%",
-      "type": "letterSpacing"
-    }
-  },
-  "border-radius": {
-    "none": {
-      "value": 0,
-      "type": "borderRadius"
-    },
-    "s": {
-      "value": "0.125rem",
-      "type": "borderRadius"
-    },
-    "m": {
-      "value": "0.25rem",
-      "type": "borderRadius"
-    },
-    "l": {
-      "value": "0.5rem",
-      "type": "borderRadius"
-    },
-    "xl": {
-      "value": "1rem",
-      "type": "borderRadius"
-    }
-  },
-  "transition": {
-    "duration": {
-      "x-slow": {
-        "value": "1000ms",
-        "type": "other"
-      },
-      "slow": {
-        "value": "500ms",
-        "type": "other"
-      },
-      "medium": {
-        "value": "250ms",
-        "type": "other"
-      },
-      "fast": {
-        "value": "150ms",
-        "type": "other"
-      },
-      "x-fast": {
-        "value": "50ms",
-        "type": "other"
-      }
-    }
-  },
-  "focus": {
-    "ring-offset": {
-      "value": "2px",
-      "type": "other"
-    },
-    "ring-width": {
-      "value": "2px",
-      "type": "other"
-    },
-    "ring-inset": {
-      "value": "-2px",
-      "type": "other"
-    },
-    "ring-style": {
-      "value": "solid",
-      "type": "other"
     }
   }
 }

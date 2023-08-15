@@ -2,28 +2,29 @@
 
 :root {
   font-family: var(--cs-font-family-sans-serif);
+  --cs-focus-ring: var(--cs-focus-ring-color) var(--cs-focus-ring-width) var(--cs-focus-ring-style);
 }
 
 body {
-  background-color: var(--cs-color-background-default);
+  background-color: var(--cs-background-lightest);
   color: var(--cs-color-foreground-default);
   font-size: var(--cs-font-size-m);
 }
 
 a {
-  color: var(--cs-link-foreground);
+  color: var(--cs-link-color);
   text-decoration: var(--cs-text-decoration-underline);
 }
 
 a:hover {
-  color: var(--cs-link-foreground-hover);
+  color: var(--cs-link-color-hover);
 }
 
 a:active {
-  color: var(--cs-link-foreground-active);
+  color: var(--cs-link-color-active);
 }
 
 a:focus-visible {
-  outline: var(--cs-focus-ring-color) var(--cs-focus-ring-width) var(--cs-focus-ring-style);
+  outline: var(--cs-focus-ring);
   outline-offset: var(--cs-focus-ring-offset);
 }
