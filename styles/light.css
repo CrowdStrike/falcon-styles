@@ -4,12 +4,10 @@
   --cs-breadcrumb-color-active: #025564;
   --cs-breadcrumb-color-hover: #168093;
   --cs-button-border: 1px solid transparent;
-  --cs-button-danger-background: #ffffff;
-  --cs-button-danger-background-hover: #e8121a;
-  --cs-button-danger-background-active: #d01017;
-  --cs-button-danger-color: #e8121a;
-  --cs-button-danger-color-hover: #ffffff;
-  --cs-button-danger-color-active: #ffffff;
+  --cs-button-danger-background: #D31912;
+  --cs-button-danger-background-hover: #E9181F;
+  --cs-button-danger-background-active: #B11D13;
+  --cs-button-danger-color: #ffffff;
   --cs-button-disabled-color: #949494;
   --cs-button-link-color: #036678;
   --cs-button-link-color-hover: #168093;

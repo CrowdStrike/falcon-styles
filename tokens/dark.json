@@ -24,7 +24,7 @@
     },
     "danger": {
       "background": {
-        "value": "#1e1d20",
+        "value": "#D31912",
         "type": "color"
       },
       "background-active": {
@@ -32,18 +32,10 @@
         "type": "color"
       },
       "background-hover": {
-        "value": "#f9585d",
+        "value": "#E9181F",
         "type": "color"
       },
       "color": {
-        "value": "#e8121a",
-        "type": "color"
-      },
-      "color-hover": {
-        "value": "#ffffff",
-        "type": "color"
-      },
-      "color-active": {
         "value": "#ffffff",
         "type": "color"
       }
