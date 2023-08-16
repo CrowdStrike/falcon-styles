@@ -459,29 +459,49 @@
     }
   },
   "color": {
-    "default": {
-      "value": "#3d3d3d",
-      "type": "color"
+    "severity": {
+      "critical": {
+        "value": "#E9181F",
+        "type": "color"
+      },
+      "high": {
+        "value": "#DE5D29",
+        "type": "color"
+      },
+      "medium": {
+        "value": "#CF8F0F",
+        "type": "color"
+      },
+      "low": {
+        "value": "#2D865A",
+        "type": "color"
+      },
+      "info": {
+        "value": "#2A67ED",
+        "type": "color"
+      }
     },
-    "danger": {
-      "value": "#fa4147",
-      "type": "color"
-    },
-    "info": {
-      "value": "#5082d2",
-      "type": "color"
-    },
-    "medium": {
-      "value": "#edb000",
-      "type": "color"
-    },
-    "success": {
-      "value": "#1b8e67",
-      "type": "color"
-    },
-    "warning": {
-      "value": "#edb000",
-      "type": "color"
+    "alert": {
+      "danger": {
+        "value": "#fa4147",
+        "type": "color"
+      },
+      "error": {
+        "value": "#fa4147",
+        "type": "color"
+      },
+      "neutral": {
+        "value": "#3d3d3d",
+        "type": "color"
+      },
+      "success": {
+        "value": "#1b8e67",
+        "type": "color"
+      },
+      "warning": {
+        "value": "#edb000",
+        "type": "color"
+      }
     }
   },
   "focus-ring": {
@@ -633,6 +653,12 @@
         }
       ],
       "type": "boxShadow"
+    }
+  },
+  "text": {
+    "default": {
+      "value": "#3d3d3d",
+      "type": "color"
     }
   }
 }
