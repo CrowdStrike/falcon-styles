@@ -15,9 +15,10 @@
     "watch": "chokidar  \"tokens.json\" -c \"pnpm run build\""
   },
   "devDependencies": {
-    "modern-normalize": "^2.0.0",
     "@tokens-studio/sd-transforms": "^0.8.5",
     "chokidar-cli": "^1.2.0",
+    "modern-normalize": "^2.0.0",
+    "prettier": "3.0.2",
     "style-dictionary": "^3.8.0",
     "token-transformer": "^0.0.32",
     "vite": "^4.3.9"

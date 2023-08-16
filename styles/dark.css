@@ -1,12 +1,13 @@
-:host, .theme-dark {
+:host,
+.theme-dark {
   color-scheme: dark;
   --cs-breadcrumb-color: #c8dcfe;
   --cs-breadcrumb-color-hover: #e1ecfe;
   --cs-breadcrumb-color-active: #7d9bff;
   --cs-button-border: 1px solid transparent;
-  --cs-button-danger-background: #D31912;
+  --cs-button-danger-background: #d31912;
   --cs-button-danger-background-active: #d01017;
-  --cs-button-danger-background-hover: #E9181F;
+  --cs-button-danger-background-hover: #e9181f;
   --cs-button-danger-color: #ffffff;
   --cs-button-disabled-color: #77798f;
   --cs-button-primary-background: #c8dcfe;
@@ -70,18 +71,18 @@
   --cs-tooltip-background: #3d3c40;
   --cs-tooltip-color: #fafafa;
   --cs-background-default: #000000;
-  --cs-background-inverse: #FFFFFF;
+  --cs-background-inverse: #ffffff;
   --cs-background-light: #161618;
-  --cs-background-lighter: #1D1C20;
-  --cs-background-lightest: #2C2C30;
+  --cs-background-lighter: #1d1c20;
+  --cs-background-lightest: #2c2c30;
   --cs-border-color-light: #4b5563;
   --cs-border-color-medium: #9ca3af;
   --cs-border-color-bold: #e5e7eb;
-  --cs-color-severity-critical: #F36568;
-  --cs-color-severity-high: #F6753D;
+  --cs-color-severity-critical: #f36568;
+  --cs-color-severity-high: #f6753d;
   --cs-color-severity-info: #9dc1fd;
-  --cs-color-severity-medium: #F3C238;
-  --cs-color-severity-low: #2D865A;
+  --cs-color-severity-medium: #f3c238;
+  --cs-color-severity-low: #2d865a;
   --cs-color-alert-danger: #fa4147;
   --cs-color-alert-error: #fa4147;
   --cs-color-alert-neutral: #e2e2e4;

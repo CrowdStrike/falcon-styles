@@ -1,4 +1,5 @@
-:host, :root {
+:host,
+:root {
   --cs-border-radius-none: 0;
   --cs-border-radius-s: 0.125rem;
   --cs-border-radius-m: 0.25rem;

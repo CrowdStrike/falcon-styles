@@ -4,42 +4,47 @@ const { formattedVariables } = StyleDictionary.formatHelpers;
 
 registerTransforms(StyleDictionary, {
   expand: {
-    typography: false
+    typography: false,
   },
 });
 
 StyleDictionary.registerFormat({
   name: 'light',
-  formatter: function({dictionary, file, options}) {
+  formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
-    return ':host, :root, .theme-light {\n' +
+    return (
+      ':host,\n:root,\n.theme-light {\n' +
       '  color-scheme: light;\n' +
-      formattedVariables({format: 'css', dictionary, outputReferences}) +
-      '\n}\n';
-  }
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
+  },
 });
 
 StyleDictionary.registerFormat({
   name: 'dark',
-  formatter: function({dictionary, file, options}) {
+  formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
-    return ':host, .theme-dark {\n' +
+    return (
+      ':host,\n.theme-dark {\n' +
       '  color-scheme: dark;\n' +
-      formattedVariables({format: 'css', dictionary, outputReferences}) +
-      '\n}\n';
-  }
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
+  },
 });
 
 StyleDictionary.registerFormat({
   name: 'system',
-  formatter: function({dictionary, file, options}) {
+  formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
-    return ':host, :root {\n' +
-      formattedVariables({format: 'css', dictionary, outputReferences}) +
-      '\n}\n';
-  }
+    return (
+      ':host,\n:root {\n' +
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
+  },
 });
-
 
 const transforms = [
   // 'ts/descriptionToComment',
@@ -66,7 +71,7 @@ const transforms = [
         transforms,
         buildPath: 'styles/',
         options: {
-          'showFileHeader': false,
+          showFileHeader: false,
         },
         files: [
           {

@@ -1,0 +1,11 @@
+{
+  "overrides": [
+    {
+      "files": "*.css",
+      "options": {
+        "printWidth": 9999
+      }
+    }
+  ],
+  "singleQuote": true
+}

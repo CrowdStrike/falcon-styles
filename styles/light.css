@@ -1,12 +1,14 @@
-:host, :root, .theme-light {
+:host,
+:root,
+.theme-light {
   color-scheme: light;
   --cs-breadcrumb-color: #036678;
   --cs-breadcrumb-color-active: #025564;
   --cs-breadcrumb-color-hover: #168093;
   --cs-button-border: 1px solid transparent;
-  --cs-button-danger-background: #D31912;
-  --cs-button-danger-background-hover: #E9181F;
-  --cs-button-danger-background-active: #B11D13;
+  --cs-button-danger-background: #d31912;
+  --cs-button-danger-background-hover: #e9181f;
+  --cs-button-danger-background-active: #b11d13;
   --cs-button-danger-color: #ffffff;
   --cs-button-disabled-color: #949494;
   --cs-button-link-color: #036678;
@@ -70,19 +72,19 @@
   --cs-switch-control-background: #767676;
   --cs-switch-control-background-checked: #025564;
   --cs-switch-thumb-background: #ffffff;
-  --cs-background-default: #DDDDDF;
-  --cs-background-inverse: #1D1C20;
-  --cs-background-light: #EEEDF3;
-  --cs-background-lighter: #F7F7F8;
+  --cs-background-default: #dddddf;
+  --cs-background-inverse: #1d1c20;
+  --cs-background-light: #eeedf3;
+  --cs-background-lighter: #f7f7f8;
   --cs-background-lightest: #ffffff;
   --cs-border-color-light: #e5e7eb;
   --cs-border-color-medium: #9ca3af;
   --cs-border-color-bold: #4b5563;
-  --cs-color-severity-critical: #E9181F;
-  --cs-color-severity-high: #DE5D29;
-  --cs-color-severity-medium: #CF8F0F;
-  --cs-color-severity-low: #2D865A;
-  --cs-color-severity-info: #2A67ED;
+  --cs-color-severity-critical: #e9181f;
+  --cs-color-severity-high: #de5d29;
+  --cs-color-severity-medium: #cf8f0f;
+  --cs-color-severity-low: #2d865a;
+  --cs-color-severity-info: #2a67ed;
   --cs-color-alert-danger: #fa4147;
   --cs-color-alert-error: #fa4147;
   --cs-color-alert-neutral: #3d3d3d;

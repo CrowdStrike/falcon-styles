@@ -24,7 +24,7 @@
     },
     "danger": {
       "background": {
-        "value": "#D31912",
+        "value": "#d31912",
         "type": "color"
       },
       "background-active": {
@@ -32,7 +32,7 @@
         "type": "color"
       },
       "background-hover": {
-        "value": "#E9181F",
+        "value": "#e9181f",
         "type": "color"
       },
       "color": {
@@ -407,7 +407,7 @@
       "type": "color"
     },
     "inverse": {
-      "value": "#FFFFFF",
+      "value": "#ffffff",
       "type": "color"
     },
     "light": {
@@ -415,11 +415,11 @@
       "type": "color"
     },
     "lighter": {
-      "value": "#1D1C20",
+      "value": "#1d1c20",
       "type": "color"
     },
     "lightest": {
-      "value": "#2C2C30",
+      "value": "#2c2c30",
       "type": "color"
     }
   },
@@ -440,11 +440,11 @@
   "color": {
     "severity": {
       "critical": {
-        "value": "#F36568",
+        "value": "#f36568",
         "type": "color"
       },
       "high": {
-        "value": "#F6753D",
+        "value": "#f6753d",
         "type": "color"
       },
       "info": {
@@ -452,11 +452,11 @@
         "type": "color"
       },
       "medium": {
-        "value": "#F3C238",
+        "value": "#f3c238",
         "type": "color"
       },
       "low": {
-        "value": "#2D865A",
+        "value": "#2d865a",
         "type": "color"
       }
     },

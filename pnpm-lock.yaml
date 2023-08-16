@@ -14,6 +14,9 @@ devDependencies:
   modern-normalize:
     specifier: ^2.0.0
     version: 2.0.0
+  prettier:
+    specifier: 3.0.2
+    version: 3.0.2
   style-dictionary:
     specifier: ^3.8.0
     version: 3.8.0
@@ -1370,6 +1373,12 @@ packages:
   /preserve@0.2.0:
     resolution: {integrity: sha512-s/46sYeylUfHNjI+sA/78FAHlmIuKqI9wNnzEOGehAlUUYeObv5C2mOinXBjyUyWmJ2SfcS2/ydApH4hTF4WXQ==}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+    engines: {node: '>=14'}
+    hasBin: true
     dev: true
 
   /process-nextick-args@2.0.1:
