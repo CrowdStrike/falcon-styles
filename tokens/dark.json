@@ -465,8 +465,8 @@
         "value": "#fa4147",
         "type": "color"
       },
-      "error": {
-        "value": "#fa4147",
+      "info": {
+        "value": "#9dc1fd",
         "type": "color"
       },
       "neutral": {
@@ -478,7 +478,7 @@
         "type": "color"
       },
       "warning": {
-        "value": "#edb000",
+        "value": "#ffcc00",
         "type": "color"
       }
     }

@@ -84,10 +84,10 @@
   --cs-color-severity-medium: #f3c238;
   --cs-color-severity-low: #2d865a;
   --cs-color-alert-danger: #fa4147;
-  --cs-color-alert-error: #fa4147;
+  --cs-color-alert-info: #9dc1fd;
   --cs-color-alert-neutral: #e2e2e4;
   --cs-color-alert-success: #06e5b7;
-  --cs-color-alert-warning: #edb000;
+  --cs-color-alert-warning: #ffcc00;
   --cs-focus-ring-color: #6688ff;
   --cs-overlay-dark: #00000021;
   --cs-overlay-darker: #00000040;
