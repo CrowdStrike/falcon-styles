@@ -625,9 +625,27 @@
     }
   },
   "text": {
-    "default": {
+    "primary": {
       "value": "#e2e2e4",
       "type": "color"
+    },
+    "secondary": {
+      "value": "#a6acb0",
+      "type": "color",
+      "description": "body-and-labels"
+    },
+    "disabled": {
+      "value": "#77798f",
+      "type": "color"
+    },
+    "error": {
+      "value": "#fa4147",
+      "type": "color"
+    },
+    "inverse": {
+      "value": "#fafafa",
+      "type": "color",
+      "description": "text-and-icons"
     }
   }
 }

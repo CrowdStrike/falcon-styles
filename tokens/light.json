@@ -656,9 +656,29 @@
     }
   },
   "text": {
-    "default": {
+    "primary": {
       "value": "#3d3d3d",
+      "type": "color",
+      "description": "titles-and-attributes"
+    },
+    "secondary": {
+      "value": "#767676",
+      "type": "color",
+      "description": "body-and-labels"
+    },
+    "disabled": {
+      "value": "#949494",
+      "type": "color",
+      "description": "disabled"
+    },
+    "error": {
+      "value": "#e9181f",
       "type": "color"
+    },
+    "inverse": {
+      "value": "#202020",
+      "type": "color",
+      "description": "text-and-icons"
     }
   }
 }
