@@ -22,7 +22,33 @@ StyleDictionary.registerFormat({
 });
 
 StyleDictionary.registerFormat({
+  name: 'light-component',
+  formatter: function ({ dictionary, file, options }) {
+    const { outputReferences } = options;
+    return (
+      ':host,\n:root,\n.theme-light {\n' +
+      '  color-scheme: light;\n' +
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
+  },
+});
+
+StyleDictionary.registerFormat({
   name: 'dark',
+  formatter: function ({ dictionary, file, options }) {
+    const { outputReferences } = options;
+    return (
+      ':host,\n.theme-dark {\n' +
+      '  color-scheme: dark;\n' +
+      formattedVariables({ format: 'css', dictionary, outputReferences }) +
+      '\n}\n'
+    );
+  },
+});
+
+StyleDictionary.registerFormat({
+  name: 'dark-component',
   formatter: function ({ dictionary, file, options }) {
     const { outputReferences } = options;
     return (
@@ -62,7 +88,7 @@ const transforms = [
   'name/cti/kebab',
 ];
 
-['system', 'light', 'dark'].map((format) => {
+['system', 'light', 'light-component', 'dark', 'dark-component'].map((format) => {
   let sd = StyleDictionary.extend({
     source: [`tokens/${format}.json`],
     platforms: {
