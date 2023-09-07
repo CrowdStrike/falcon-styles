@@ -1,8 +1,17 @@
 {
-  "name": "falcon-styles",
-  "private": true,
+  "name": "@crowdstrike/falcon-styles",
   "version": "0.0.0",
+  "description": "Styles for Falcon Console",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CrowdStrike/falcon-styles.git"
+  },
+  "license": "MIT",
+  "author": "CrowdStrike UX Team",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build-transform-system": "node node_modules/token-transformer/cli tokens.json tokens/system.json reference,system reference",
     "build-transform-light": "node node_modules/token-transformer/cli tokens.json tokens/light.json reference,light reference",
@@ -14,9 +23,12 @@
     "build": "pnpm build-transform && pnpm build-styles && vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "watch": "chokidar  \"tokens.json\" -c \"pnpm run build\""
+    "watch": "chokidar  \"tokens.json\" -c \"pnpm run build\"",
+    "release": "changeset publish"
   },
   "devDependencies": {
+    "@changesets/changelog-github": "^0.4.8",
+    "@changesets/cli": "^2.26.2",
     "@tokens-studio/sd-transforms": "^0.8.5",
     "chokidar-cli": "^1.2.0",
     "modern-normalize": "^2.0.0",
