@@ -24,6 +24,7 @@
     "dev": "vite",
     "preview": "vite preview",
     "watch": "chokidar  \"tokens.json\" -c \"pnpm run build\"",
+    "prepublishOnly": "pnpm build",
     "release": "changeset publish"
   },
   "devDependencies": {
