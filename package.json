@@ -23,7 +23,7 @@
     "build": "pnpm build-transform && pnpm build-styles && vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "watch": "chokidar  \"tokens.json\" -c \"pnpm run build\"",
+    "watch": "chokidar  \"tokens.json\" \"styles/base.css\" -c \"pnpm run build\"",
     "prepublishOnly": "pnpm build",
     "release": "changeset publish"
   },
