@@ -7,7 +7,7 @@
 
 body {
   background-color: var(--cs-background-lightest);
-  color: var(--cs-color-foreground-default);
+  color: var(--cs-text-primary);
   font-size: var(--cs-font-size-m);
 }
 
