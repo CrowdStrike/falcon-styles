@@ -34,4 +34,3 @@ document.documentElement.classList.toggle('theme-dark')
 
 The falcon-shoelace stylesheet includes:
 * [modern-normalize](https://github.com/sindresorhus/modern-normalize)
-* [falcon-styles](https://github.com/sindresorhus/modern-normalize)
