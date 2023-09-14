@@ -1,5 +1,11 @@
 # @crowdstrike/falcon-styles
 
+## 0.2.1
+
+### Patch Changes
+
+- [`ddfbde0`](https://github.com/CrowdStrike/falcon-styles/commit/ddfbde0a2a03bb3c7751d29f3b2fa579c5c3b62b) Thanks [@camskene](https://github.com/camskene)! - Update readme
+
 ## 0.2.0
 
 ### Minor Changes
