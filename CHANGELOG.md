@@ -1,5 +1,11 @@
 # @crowdstrike/falcon-styles
 
+## 0.3.0
+
+### Minor Changes
+
+- [`61545c5`](https://github.com/CrowdStrike/falcon-styles/commit/61545c52f8eea0a1df3a579bc8153238c88f09b5) Thanks [@camskene](https://github.com/camskene)! - Breaking change - misspelled property
+
 ## 0.2.1
 
 ### Patch Changes
