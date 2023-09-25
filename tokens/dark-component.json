@@ -346,7 +346,7 @@
         "value": "#17161a",
         "type": "color"
       },
-      "column-seperator": {
+      "column-separator": {
         "background": {
           "value": "#e2e2e4",
           "type": "color",
