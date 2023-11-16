@@ -59,8 +59,8 @@
   --cs-space-x72: 18rem;
   --cs-space-x80: 20rem;
   --cs-space-x96: 24rem;
-  --cs-text-decoration-underline: underline;
   --cs-text-decoration-none: none;
+  --cs-text-decoration-underline: underline;
   --cs-text-decoration-line-through: line-through;
   --cs-transition-duration-x-slow: 1000ms;
   --cs-transition-duration-slow: 500ms;

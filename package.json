@@ -15,9 +15,9 @@
   "scripts": {
     "build-transform-system": "node node_modules/token-transformer/cli tokens.json tokens/system.json reference,system reference",
     "build-transform-light": "node node_modules/token-transformer/cli tokens.json tokens/light.json reference,light reference",
-    "build-transform-light-component": "node node_modules/token-transformer/cli tokens.json tokens/light-component.json reference,light-component reference",
     "build-transform-dark": "node node_modules/token-transformer/cli tokens.json tokens/dark.json reference,dark reference",
-    "build-transform-dark-component": "node node_modules/token-transformer/cli tokens.json tokens/dark-component.json reference,dark-component reference",
+    "build-transform-light-component": "node node_modules/token-transformer/cli tokens.json tokens/light-component.json reference,light,light-component reference,light",
+    "build-transform-dark-component": "node node_modules/token-transformer/cli tokens.json tokens/dark-component.json reference,dark,dark-component reference,dark",
     "build-transform": "pnpm run build-transform-system && pnpm run build-transform-light && pnpm run build-transform-light-component && pnpm run build-transform-dark && pnpm run build-transform-dark-component",
     "build-styles": "node build-styles.js",
     "build": "pnpm build-transform && pnpm build-styles && vite build",
