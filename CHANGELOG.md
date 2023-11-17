@@ -1,5 +1,12 @@
 # @crowdstrike/falcon-styles
 
+## 0.4.0
+
+### Minor Changes
+
+- [`cc0c71b`](https://github.com/CrowdStrike/falcon-styles/commit/cc0c71b8bb85bd6601b540f5171579b9a4b6ec2a) Thanks [@camskene](https://github.com/camskene)! - Update all color values to use new color ramps.
+  BREAKING CHANGE! Some variable names were changed.
+
 ## 0.3.0
 
 ### Minor Changes
